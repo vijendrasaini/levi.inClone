@@ -82,3 +82,15 @@ function signUp() {
 
   localStorage.setItem("users", JSON.stringify(userDetails));
 }
+
+let modal = document.getElementById("forgot_popup");
+function forgot() {
+  modal.style.display = "block";
+  // console.log("here");
+}
+
+function closePopup() {
+  let span = document.getElementById("close_popup");
+
+  modal.style.display = "none";
+}
