@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./login.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
   </head>
   <body>
     <div id="header"></div>
     <div id="login_content">
       <div id="signin">
         <h1>ALREADY A CUSTOMER</h1>
-        <input type="email" id="si_email" placeholder="Email Address" />
-        <input
-          type="password"
-          id="si_password"
-          placeholder="Password (at least 8 character long)"
-        />
+        <form id="sign_in_form">
+          <input type="email" id="si_email" placeholder="Email Address" />
+          <input
+            type="password"
+            id="si_password"
+            placeholder="Password (at least 8 character long)"
+          />
+        </form>
         <p>Forgot Password?</p>
         <button id="si_btn" onclick="signIn()">SIGN IN</button>
         <p>OR</p>
@@ -25,13 +27,15 @@
       </div>
       <div id="signup">
         <h1>NEW CUSTOMER</h1>
-        <input type="email" id="suEmail" placeholder="Email Address" />
-        <input type="number" id="suPhone" placeholder="Mobile Number" />
-        <input
-          type="password"
-          id="suPassword"
-          placeholder="Password (at least 8 characters long)"
-        />
+        <form id="sign_up_form">
+          <input type="email" id="suEmail" placeholder="Email Address" />
+          <input type="number" id="suPhone" placeholder="Mobile Number" />
+          <input
+            type="password"
+            id="suPassword"
+            placeholder="Password (at least 8 characters long)"
+          />
+        </form>
         <p>
           By Creating an account, you hereby explicitly consent to the
           collection, use, disclosure, transfer to third party and other
@@ -47,4 +51,4 @@
   </body>
 </html>
 
-<script src="./userdata.js"></script>
+<script src="../database/userdata.js"></script>

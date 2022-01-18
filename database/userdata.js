@@ -14,6 +14,7 @@ localStorage.setItem("users", JSON.stringify(userDetails));
 function signIn() {
   let currentUser;
   let userDetails = JSON.parse(localStorage.getItem("users"));
+  console.log(userDetails);
 
   let siEmail = document.getElementById("si_email").value;
   let siPassword = document.getElementById("si_password").value;
@@ -29,17 +30,21 @@ function signIn() {
         currentUser = userDetails[i];
         localStorage.setItem("currentuser", JSON.stringify(currentUser));
         // console.log(currentUser);
-        window.location.href = "home.html";
+        // window.location.href = "index.html";
+
+        //---------->Redirect to Home page here<----------------
+
         break;
       } else {
         alert("Password Incorrect!");
         break;
       }
     }
-    if (j == 0) {
-      alert("User not found!");
-    }
+
     i++;
+  }
+  if (j == 0) {
+    alert("User not found!");
   }
 
   //   console.log(siEmail);
@@ -81,6 +86,9 @@ function signUp() {
 
   userDetails.push(newUser);
   alert("Account created successfully!");
-  window.location.href = "home.html";
+  // window.location.href = "index.html";
+
+  //--------->redirect to home page here<---------
+
   localStorage.setItem("users", JSON.stringify(userDetails));
 }
