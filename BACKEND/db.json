@@ -289,7 +289,7 @@
             "material": ["100% Cotton"]
         },
         {
-            "title": "LEVI’S® TRUCKER JACKET",
+            "title": "LEVI'S® TRUCKER JACKET",
             "item_no":"A06350000",
             "gender": "men",
             "category": "clothing",
@@ -402,8 +402,8 @@
             "material": ["100% Cotton"]
         },
         {
-            "title": "LEVI’S® HOODED RAIN JACKET",
-            "item_no":873360000,
+            "title": "LEVI'S® HOODED RAIN JACKET",
+            "item_no":"873360000",
             "gender": "men",
             "category": "clothing",
             "type": "jackets",
@@ -438,12 +438,10 @@
                 "Long Sleeve",
                 "Zip Fly with Button Closure"],
             "material": ["94% Polyester, 6% Elastane"]
-        }
-    ],
-    "products1":[
+        },
         {
             "title": "710 INNOVATION SUPER SKINNY JEANS",
-            "item_no":564950051,
+            "item_no":"564950051",
             "gender": "women",
             "category": "Shop Jeans By Fit",
             "type": "",
@@ -483,7 +481,7 @@
         },
         {
             "title": "710 Super Skinny Jeans",
-            "item_no":,
+            "item_no":"213250120",
             "gender": "women",
             "category": "Shop Jeans By Fit",
             "type": "",
@@ -521,7 +519,7 @@
         },
         {
             "title": "710 Innovation Super Skinny Jeans",
-            "item_no":,
+            "item_no":"564950034",
             "gender": "women",
             "category": "Shop Jeans By Fit",
             "type": "",
@@ -550,13 +548,16 @@
                 "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwed4468c2/images/hi-res/564950034/564950034_05_Back%20Details.jpg?sw=75&sh=100"
             ],
             "description":
-              "",
-            "fit": [],
-            "material": []
+              "Our signature Lot 700 fits are the ultimate look-amazing jeans, designed to flatter, hold and lift — all day, every day. One of our bestsellers, the 710 Super Skinny Jean is the seriously sexy fit. It is ultra-sleek, hugs your figure in all the right ways and is finished with the skinniest leg for a sharp silhouette.",
+            "fit": ["Inseam Length: 30 in.",
+                "Close Fit Through Hip and Thigh, Super Skinny Leg",
+                "Sits at waist",
+                "Zip Fly with Button Closure"],
+            "material": ["76% Cotton, 13% Lyocell, 6% Polyester, 5% Elastane"]
         },
         {
             "title": "710 Innovation Super Skinny Jeans",
-            "item_no":,
+            "item_no":"564950032",
             "gender": "women",
             "category": "Shop Jeans By Fit",
             "type": "",
@@ -571,28 +572,33 @@
               "price":2449.50 
             },
             "size": {
-              "S": 1,
-              "M": 1,
-              "L": 1,
-              "XL": 0,
-              "XXL": 1
+                "25": "1",
+                "26": "1",
+                "27": "1",
+                "28": "1",
+                "30": "0",
+                "32": "0",
+                "34": "1"
             },
             "image": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwe39bb159/images/hi-res/564950032/564950032_01_Front.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw5efe561b/images/hi-res/564950032/564950032_02_Back.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwfe16f868/images/hi-res/564950032/564950032_03_Side.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwbdb84f71/images/hi-res/564950032/564950032_04_Front%20Details.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw95752c0e/images/hi-res/564950032/564950032_10_Model%20Front.jpg?sw=75&sh=100"
             ],
             "description":
-              "",
-            "fit": [],
-            "material": []
+              "Our signature Lot 700 fits are the ultimate look-amazing jeans, designed to flatter, hold and lift — all day, every day. One of our bestsellers, the 710 Super Skinny Jean is the seriously sexy fit. It is ultra-sleek, hugs your figure in all the right ways and is finished with the skinniest leg for a sharp silhouette.",
+            "fit": ["Inseam Length: 30 in.",
+                "Close Fit Through Hip and Thigh, Super Skinny Leg",
+                "Sits at waist",
+                "Zip Fly with Button Closure"],
+            "material": ["76% Cotton, 13% Lyocell, 6% Polyester, 5% Elastane"]
         },
         {
             
             "title": "710 SUPER SKINNY JEANS",
-            "item_no":,
+            "item_no":"213570027",
             "gender": "women",
             "category": "Shop Jeans By Fit",
             "type": "",
@@ -607,27 +613,32 @@
               "price":1239.60 
             },
             "size": {
-              "S": 1,
-              "M": 1,
-              "L": 1,
-              "XL": 0,
-              "XXL": 1
+                "25": 1,
+                "26": 1,
+                "27": 1,
+                "28": 0,
+                "30": 0,
+                "32": 0,
+                "34": 1
             },
             "image": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwae34c867/images/hi-res/213570027/213570027_01_Front.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw6c2f7656/images/hi-res/213570027/213570027_02_Back.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw997718eb/images/hi-res/213570027/213570027_03_Side.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwa3e18531/images/hi-res/213570027/213570027_04_Back%20Details.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw55f19bde/images/hi-res/213570027/213570027_10_Model.jpg?sw=75&sh=100"
             ],
             "description":
-              "",
-            "fit": [],
-            "material": []
+              "Our signature Lot 700 fits are the ultimate look - amazing styles, designed to flatter, hold and lift - all day, every day. One of our bestsellers, the 710 Super Skinny is ultra-sleek and hugs your figure in all the right ways. This jean is finished with the skinniest leg in our collection for a sharp silhouette.",
+            "fit": ["Inseam Length: 27 in.",
+                "Skinny Through Hip and Thigh, Super Skinny Leg",
+                "Sits At Waist",
+                "Zip Fly"],
+            "material": ["64% Cotton, 20% Polyester, 13% Viscose, 3% Elastane"]
         },
         {
             "title": "Innovation Super Skinny Jeans",
-            "item_no":,
+            "item_no":"564950017",
             "gender": "women",
             "category": "Shop Jeans By Fit",
             "type": "",
@@ -662,7 +673,7 @@
         },
         {
             "title": "Innovation Super Skinny Jeans",
-            "item_no":,
+            "item_no":"564950017",
             "gender": "women",
             "category": "Shop Jeans By Fit",
             "type": "",
@@ -677,27 +688,31 @@
               "price":50 
             },
             "size": {
-              "S": 1,
-              "M": 1,
-              "L": 1,
-              "XL": 0,
-              "XXL": 1
+                "25" : "0",
+                "26" : "1",
+                "27" : "1",
+                "28" : "1",
+                "30" : "0",
+                "32" : "1",
+                "34" : "1"
             },
             "image": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwd17038e9/images/hi-res/564950017/564950017_01_Front.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw27d1d539/images/hi-res/564950017/564950017_02_Back.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw6c6e0c70/images/hi-res/564950017/564950017_03_Side.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw26d1edd3/images/hi-res/564950017/564950017_10_Model%20Front.jpg?sw=75&sh=100"
             ],
             "description":
-              "",
-            "fit": [],
-            "material": []
+              "Our signature Lot 700 fits are the ultimate look-amazing styles, designed to flatter, hold and lift - all day, every day. One of our bestsellers, the Innovation Skinny jeans offers next-level shaping because our special FlawlessFX technology is woven into the denim. Bottom line: you'll look amazing even longer.",
+            "fit": ["Inseam Length: 30 in.",
+                "Skinny Fit Through Thigh and Hip, Skinny Leg",
+                "Sits at waist",
+                "Zip Fly with Button Closure"],
+            "material": ["76% Cotton, 21% Polyester, 3% Elastane"]
         },
         {
             "title": "710 SUPER SKINNY JEANS",
-            "item_no":,
+            "item_no":"213570011",
             "gender": "women",
             "category": "Shop Jeans By Fit",
             "type": "",
@@ -712,27 +727,32 @@
               "price": 60
             },
             "size": {
-              "S": 1,
-              "M": 1,
-              "L": 1,
-              "XL": 0,
-              "XXL": 1
+                "25":"0",
+                "26":"1",
+                "27":"1",
+                "28":"0",
+                "30":"0",
+                "32":"0",
+                "34":"0"
             },
             "image": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwc9597cfe/images/hi-res/213570011/213570011_01_Front.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw6297a484/images/hi-res/213570011/213570011_02_Back.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw0a8d1197/images/hi-res/213570011/213570011_03_Side.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwa3f6377e/images/hi-res/213570011/213570011_04_Back%20Details.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwca0cd4f4/images/hi-res/213570011/213570011_10_Model.jpg?sw=75&sh=100"
             ],
             "description":
-              "",
-            "fit": [],
-            "material": []
+              "Our signature Lot 700 fits are the ultimate look - amazing styles, designed to flatter, hold and lift - all day, every day. One of our bestsellers, the 710 Super Skinny is ultra-sleek and hugs your figure in all the right ways. This jean is finished with the skinniest leg in our collection for a sharp silhouette.",
+            "fit": ["Inseam Length: 27 in.",
+                "Skinny Through Hip and Thigh, Super Skinny Leg",
+                "Sits At Waist",
+                "Zip Fly"],
+            "material": ["98% Cotton, 2% Elastane"]
         },
         {
             "title": "710 SUPER SKINNY JEANS",
-            "item_no":,
+            "item_no":"564950018",
             "gender": "women",
             "category": "Shop Jeans By Fit",
             "type": "",
@@ -747,24 +767,28 @@
               "price":1549.50
             },
             "size": {
-              "S": 1,
-              "M": 1,
-              "L": 1,
-              "XL": 0,
-              "XXL": 1
+                "25": "1",
+                "26": "1",
+                "27": "1",
+                "28": "1",
+                "30": "1",
+                "32": "0",
+                "34": "0"
             },
             "image": [
-                "",
-                "",
-                "",
-                "",
-                ""
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwe5f14c51/images/hi-res/564950018/564950018_01_Front.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw89406d85/images/hi-res/564950018/564950018_02_Back.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw3a188342/images/hi-res/564950018/564950018_03_Side.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwaf552c8a/images/hi-res/564950018/564950018_05_Back%20Detail.jpg?sw=75&sh=100",
+                "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb29ad886/images/hi-res/564950018/564950018_10_Model%20Front.jpg?sw=75&sh=100"
             ],
             "description":
-              "",
-            "fit": [],
-            "material": []
+              "Our signature Lot 700 fits are the ultimate look-amazing styles, designed to flatter, hold and lift - all day, every day. One of our bestsellers, the Innovation Skinny jeans offers next-level shaping because our special FlawlessFX technology is woven into the denim. Bottom line: you'll look amazing even longer.",
+            "fit": ["Inseam Length: 30 in.",
+                "Skinny Fit Through Thigh and Hip, Skinny Leg",
+                "Sits at waist",
+                "Zip Fly with Button Closure"],
+            "material": ["76% Cotton, 21% Polyester, 3% Elastane"]
         }
     ]
-
 }
