@@ -1,20 +1,9 @@
-let userDetails = [
-  {
-    email: "demo@levi.com",
-    password: 11112222,
-    phone: 9876543210,
-    cart: [],
-    orders: [],
-    status: false,
-  },
-];
-
-localStorage.setItem("users", JSON.stringify(userDetails));
+let userDetails = JSON.parse(localStorage.getItem("users"));
 
 function signIn() {
-  let currentUser;
-  let userDetails = JSON.parse(localStorage.getItem("users"));
-  console.log(userDetails);
+  if (userDetails.length === 0) {
+    alert("User not found!");
+  }
 
   let siEmail = document.getElementById("si_email").value;
   let siPassword = document.getElementById("si_password").value;
@@ -24,14 +13,13 @@ function signIn() {
     if (userDetails[i].email == siEmail) {
       j++;
       if (userDetails[i].password == siPassword) {
-        j--;
         userDetails[i].status = true;
         alert("User Found!");
-        currentUser = userDetails[i];
+        let currentUser = userDetails[i];
+        console.log(currentUser);
         localStorage.setItem("currentuser", JSON.stringify(currentUser));
-        // console.log(currentUser);
-        // window.location.href = "index.html";
 
+        // window.location.href = "index.html";
         //---------->Redirect to Home page here<----------------
 
         break;
@@ -46,16 +34,15 @@ function signIn() {
   if (j == 0) {
     alert("User not found!");
   }
-
-  //   console.log(siEmail);
 }
 
 function signUp() {
-  let userDetails = JSON.parse(localStorage.getItem("users"));
+  // console.log(userDetails);
 
   let suEmail = document.getElementById("suEmail").value;
 
   let suPhone = document.getElementById("suPhone").value;
+
   if (suPhone.length !== 10) {
     alert("Enter valid mobile number");
     return;
@@ -85,9 +72,12 @@ function signUp() {
   };
 
   userDetails.push(newUser);
+  let currentUser = newUser;
+  // console.log(currentUser);
+  localStorage.setItem("currentuser", JSON.stringify(currentUser));
   alert("Account created successfully!");
-  // window.location.href = "index.html";
 
+  // window.location.href = "index.html";
   //--------->redirect to home page here<---------
 
   localStorage.setItem("users", JSON.stringify(userDetails));
