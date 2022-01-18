@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+    <div id="login_content">
+      <div id="signin">
+        <h1>ALREADY A CUSTOMER</h1>
+        <input type="email" id="si_email" placeholder="Email Address" />
+        <input
+          type="password"
+          id="si_password"
+          placeholder="Password (at least 8 character long)"
+        />
+        <p>Forgot Password?</p>
+        <button id="si_btn" onclick="signIn()">SIGN IN</button>
+        <p>OR</p>
+        <button id="google_sign_in">SIGN IN WITH GOOGLE</button>
+      </div>
+      <div id="signup">
+        <h1>NEW CUSTOMER</h1>
+        <input type="email" id="suEmail" placeholder="Email Address" />
+        <input type="number" id="suPhone" placeholder="Mobile Number" />
+        <input
+          type="password"
+          id="suPassword"
+          placeholder="Password (at least 8 characters long)"
+        />
+        <p>
+          By Creating an account, you hereby explicitly consent to the
+          collection, use, disclosure, transfer to third party and other
+          processing of your personal information (including your sensitive
+          personal information, if any) by the relevant LS&Co. entity, including
+          but not limited to direct marketing and overseas data transfers, as
+          described in our Privacy Policy
+        </p>
+        <button id="su_btn" onclick="signUp()">CREATE AN ACCOUNT</button>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+
+<script src="./userdata.js"></script>

@@ -1,0 +1,19 @@
+#login_content {
+  background-color: aqua;
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+#signin {
+  background-color: teal;
+  width: 40%;
+  margin-left: 5%;
+  padding-right: 5%;
+  border-right: white solid 4px;
+}
+#signup {
+  background-color: wheat;
+  width: 40%;
+  margin-left: 5%;
+  padding-right: 4%;
+}
