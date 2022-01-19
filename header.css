@@ -69,6 +69,7 @@ header a{
     gap: 4%;
     margin-left:4.2% ;
     align-content: center;
+    color:#ccc ;
 }
 #Header_search{
     display: flex;
