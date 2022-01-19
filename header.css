@@ -38,6 +38,8 @@ header nav ul {
 } */
 
 
+
+
 #Header_logo_img{
     width:95px;
     height: 40px;
@@ -97,7 +99,7 @@ font-size: 22px;
 #Header_hide{
     
     width:65%;
-    margin-left: 10.15%;
+    margin-left: 2%+95px;
     margin-top: -15px;
 
     /* delete later
@@ -147,13 +149,14 @@ font-size: 22px;
 
 #Header_newarrivals
 {
-    margin-left: 20.5%;
+    margin-left: 28%;
     border:2px solid black;
     /* padding: 3px; */
     display: flex;
     font-family: "Apple SD Gothic Neo",Sans-serif;
     display: none;
     width: 20%;
+    background-color: white;
 
 }
 /* #Header_newarrivals ul{
@@ -171,11 +174,16 @@ font-size: 22px;
  margin-left:40%;
  width: 30%;
  display: none;
+ background-color: white;
+
  
 
 }
 #Header_collection li{
     font-weight: 700;
+}
+#Header_collection li:hover{
+    text-decoration: underline;
 }
 #Header_collection ul{
     margin-top: 20px;
@@ -187,9 +195,24 @@ font-size: 22px;
     display: none;
     margin-top: 0px;
     padding-top: 0px;
+    background-color: white;
 
+
+}
+
+#Header_sale li:hover{
+    text-decoration: underline;
 }
 #Header_sale ul{
     line-height: 25px;
 }
 
+#Header_sale li a{
+    font-weight: 700;
+}
+
+header nav ul>li:nth-child(6) a{
+
+    color: red;
+    
+    }
