@@ -195,11 +195,11 @@ font-size: 22px;
 }
 #Header_collection ul{
     margin-top: 20px;
-    line-height: 25px;
+    line-height: 40px;
 }
 #Header_sale{
     border:1px solid black;
-    margin-left: 58.58%;
+    margin-left: 58%;
     display: none;
     margin-top: 0px;
     padding-top: 0px;
@@ -212,7 +212,7 @@ font-size: 22px;
     text-decoration: underline;
 }
 #Header_sale ul{
-    line-height: 25px;
+    line-height: 40px;
 }
 
 #Header_sale li a{
