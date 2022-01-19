@@ -6,5 +6,5 @@ body{
     margin: auto;
 }
 #shippingAddress{
-    display: inline-block;
+    display: block;
 }
