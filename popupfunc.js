@@ -5,8 +5,8 @@ function popup(parent,child){
 
     document.getElementById(parent).addEventListener("mouseover",()=>{
         document.getElementById(child).style.display="flex"
-       document.getElementById(parent).style.borderLeft="2px solid black"
-       document.getElementById(parent).style.borderRight="2px solid black"
+       document.getElementById(parent).style.borderLeft="1px solid black"
+       document.getElementById(parent).style.borderRight="1px solid black"
        document.getElementById(parent).style.borderTop="1px solid black"
     
     
@@ -14,8 +14,8 @@ function popup(parent,child){
     
        document.getElementById(child).addEventListener("mouseover",()=>{
         document.getElementById(child).style.display="flex"
-       document.getElementById(parent).style.borderLeft="2px solid black"
-       document.getElementById(parent).style.borderRight="2px solid black"
+       document.getElementById(parent).style.borderLeft="1px solid black"
+       document.getElementById(parent).style.borderRight="1px solid black"
        document.getElementById(parent).style.borderTop="1px solid black"
        document.getElementById(parent).style.backgroundColor="white"
     
