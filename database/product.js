@@ -1,11 +1,11 @@
-let path = "../backend/db.json";
+let url = "http://localhost:3000/db/";
 
 let obj;
 fetchData();
 
 async function fetchData() {
   try {
-    let data = await fetch(path);
+    let data = await fetch(url);
     let response = await data.json();
     obj = response;
     console.log(obj);
