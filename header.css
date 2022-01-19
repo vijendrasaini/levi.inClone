@@ -166,8 +166,8 @@ font-size: 22px;
 
 
 }
-#Header_newarrivals ul{
-    line-height: 25px;
+#Header_newarrivals ul li{
+    line-height: 35px;
 }
 #Header_newarrivals a{
     font-weight: 700;
