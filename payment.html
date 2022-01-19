@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Levi Checkout</title>
+    <link rel="stylesheet" href="./payment.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="black_header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+<body>
+    <header></header>
+    <div id="paymentPage">
+        <!---------------------payment start--------------------->
+        <div id="payment">
+            <span>PAYMENT</span>
+        </div>
+        <!---------------------payment end--------------------->
+        <hr>
+        <div id="paymentMethod">
+            <h4>PAYMENT METHOD</h4>
+            <p>Please sign in to pay through COD. COD is applicable for orders upto Rs. 2,000 only.</p>
+            <p>Please note that all sales of Levi's® Masks are final sales and they cannot be returned.</p>
+            <p>CONTAINMENT ZONES ARE NOT SERVICEABLE: As per government guidelines, we are not able to service areas
+                which are containment
+                zones. Orders from such areas will be on hold until they are serviceable.</p>
+        </div>
+        <div id="payMethod">
+            <li>Debit Card/Credit Card/Net Banking</li>
+            <li>UPI</li>
+            <li>Paytm</li>
+            <li>PhonePe Mobile Wallet</li>
+        </div>
+    </div>
+    <footer></footer>
+    <div id="placeOrder">
+        <button id="placeOrderBtn">PLACE ORDER</button>
+    </div>
+</body>
+
+</html>
+<script type="module">
+    import { popup, headernav } from "./popupfunc.js"
+
+    document.getElementsByTagName("header")[0].innerHTML = headernav()
+    popup("Header_E", "Header_sale")
+    popup("Header_A", "Header_men")
+    popup("Header_B", "Header_women")
+    popup("Header_C", "Header_newarrivals")
+    popup("Header_D", "Header_collection")
+</script>
+<script type="module">
+
+    import footer from "./footer.js"
+
+    document.getElementsByTagName("footer")[0].innerHTML = footer()
+</script>

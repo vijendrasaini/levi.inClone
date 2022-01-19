@@ -1,12 +1,13 @@
 footer{
     background-color: rgb(226, 221, 221);
     margin-top: 50px;
-   }
+    height:max-content
+}
 #footer_two{
     display: flex;
+    font-size: small;
     justify-content: space-evenly;
     width:100% ;
-    font-family: sans-serif;
     padding-top: 20px;
     padding-bottom: 40px;
     height: max-content;
@@ -22,58 +23,19 @@ footer{
 
 #footer_two>div:nth-child(5)>p:nth-child(3){
     font-size: 10px;
+    text-align: justify;
 }
-
 
 #footer_two>div:nth-child(5)>p:nth-child(5){
     font-size: 10px;
+    text-align: justify;
 }
 
 #footer_two>div:nth-child(1) ul,#footer_two>div:nth-child(2) ul,#footer_two>div:nth-child(3) ul,#footer_two>div:nth-child(4) ul
 {
 line-height: 40px;
-font-weight: 700;
+font-weight: 600;
 
-}
-#footer_one
-{
-width: 100%;
-padding-top: 20px;
-padding-bottom: 40px;
-border-bottom: 1px solid rgb(216, 212, 212);
-}
-#footer_one>div{
-
-    text-align: center;
-    font-family: sans-serif;
-    color: rgb(80, 74, 74);
-}
-#footer_one>div:nth-child(1){
-font-size: 25px;
-font-weight:bold;}
-
-#footer_one>div:nth-child(2){
-width:100%;
-margin-top: 20px;
-display: flex;
-justify-content: center;
-gap: 2%;
-}
-
-#footer_one>div:nth-child(2) input{
-    width:20%;
-    height: 30px;
-}
-
-#footer_one>div:nth-child(2) button{
-height: 35px;
-width:12%;
-color: white;
-background-color: black;
-}
-
-footer{
-    height:max-content
 }
 
 #footer_three{

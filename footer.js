@@ -1,19 +1,7 @@
-function footermain()
+function footer()
 {
 return `
-<div id="footer_one">
-    <div>
-        TRACK ORDER
-    </div>
-    <div>
-        <input type="text" placeholder="Order Number">
-        <input type="text" placeholder="EmailAddress/MobileNumber">
-        <button>TRACK</button>
-    </div>
-</div>
 <div id="footer_two">
-
-
 <div>
 <ul>
 <li><a href="">Shipping</a></li>
@@ -81,4 +69,4 @@ Levi.in assistance (Mon - Sat: 10am - 6pm)</p>
 
 }
 
-export default footermain
+export default footer
