@@ -3,28 +3,92 @@
 
 <head>
     <title>Shopping Cart | Levi's India</title>
-    <link rel="stylesheet" href="styles/cart.css">
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="./header.css">
 </head>
 
 <body>
-    <h2>YOUR SHOPPING BAG</h2>
-    <hr>
-
+    <div id="header"></div>
+    <!--------------------------cart container start----------------------------------->
     <div id="cartDiv">
-        <table>
-            <tr>
-                <th>ITEM DESCRIPTION</th>
-                <th>QUANTITY</th>
-                <th>UNIT PRICE</th>
-                <th>TOTAL PRICE</th>
-                
-            </tr>
-        </table>
+        <h2>YOUR SHOPPING BAG</h2>
+        <hr>
+        <!--------------------------cart header start----------------------------------->
+
+        <div id="cartHeader">
+            <span>ITEM DESCRIPTION</span>
+            <span>QUANTITY</span>
+            <span>UNIT PRICE</span>
+            <span>TOTAL PRICE</span>
+        </div>
+        <!--------------------------cart header end----------------------------------->
+
+        <hr>
+        <!--------------------------product description start----------------------------------->
+
         <div id="productDescription">
-            <img src="" alt="">
+            <!--------------------------product details start----------------------------------->
+
+            <div id="productDetails">
+                <img src="https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwa71c3e96/images/hi-res/A13810001/A13810001_01_Front.jpg?sw=75&sh=100"
+                    alt="">
+                <span>LEVI'S PRINTED TEE
+                    <p>Green</p>
+                    <p>XS</p>
+                </span>
+                <span>EDIT</span>
+            </div>
+            <!--------------------------product details end----------------------------------->
+
+            <!--------------------------quantity div start----------------------------------->
+
+            <div>
+                <input id="quantity" type="number"> <br>
+                <a href="">REMOVE</a>
+            </div>
+            <!--------------------------quantity div end----------------------------------->
+            <!--------------------------unit price div start----------------------------------->
+
+            <div id="unitPrice">
+                1099.00
+            </div>
+            <!--------------------------unit price div end----------------------------------->
+
+            <!--------------------------total price div----------------------------------->
+
+            <div id="totalPrice">
+                1099.00
+            </div>
+            <!--------------------------total price div end----------------------------------->
 
         </div>
+        <!--------------------------product description end----------------------------------->
+        <hr>
+
+        <!--------------------------promo code div start----------------------------------->
+
+        <div>
+            <input id="promoCode" type="text" placeholder="Enter Promo Code">
+            <button id="apply">APPLY</button>
+        </div>
+        <!--------------------------promo code div end----------------------------------->
+        <hr>
+        <!--------------------------continue shopping start----------------------------------->
+        <div>
+            <button id="continueShopping">CONTINUE SHOPPING</button>
+        </div>
+        <!--------------------------continue shopping end----------------------------------->
+        <h2>RECOMMENDED FOR YOU</h2>
+    </div>
+    <!--------------------------cart container end----------------------------------->
+    <div id="checkout">
+        <button id="checkoutBtn">CHECKOUT</button>
     </div>
 </body>
 
 </html>
+<script type="module">
+    import { popup, headernav } from "./popupfunc.js"
+    document.getElementById("header").innerHTML = headernav()
+</script>
