@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="./cart.css">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="./header.css">
-    <!-- <link rel="stylesheet" href="black_header.css"> -->
+    <link rel="stylesheet" href="black_header.css">
+    <link rel="stylesheet" href="footermain.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 
 <body>
@@ -80,9 +82,12 @@
             <button id="continueShopping">CONTINUE SHOPPING</button>
         </div>
         <!--------------------------continue shopping end----------------------------------->
-        <h2>RECOMMENDED FOR YOU</h2>
+        <h3>RECOMMENDED FOR YOU</h3>
     </div>
     <!--------------------------cart container end----------------------------------->
+    <footer>
+
+    </footer>
     <div id="checkout">
         <button id="checkoutBtn">CHECKOUT</button>
     </div>
@@ -98,4 +103,10 @@
     popup("Header_B", "Header_women")
     popup("Header_C", "Header_newarrivals")
     popup("Header_D", "Header_collection")
+</script>
+<script type="module">
+
+    import footermain from "./footermain.js"
+
+    document.getElementsByTagName("footer")[0].innerHTML=footermain()
 </script>
