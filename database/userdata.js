@@ -113,8 +113,6 @@ function sendOtp() {
       // alert("");
       let alert1 = document.getElementById("alert1");
       alert1.textContent = "Email ID not Registered";
-      alert1.style.color = "Red";
-
       cred.append(alert1);
       return;
     }
