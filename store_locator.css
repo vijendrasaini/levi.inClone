@@ -1,0 +1,178 @@
+#store_main{
+    width:95%;
+ 
+    margin: auto;
+}
+
+#store_head{
+
+    height:50px;
+    width:100%;
+    border-bottom: 1px solid gainsboro;
+    font-family: "Interstate-Bold", sans-serif;
+    font-size: 24px;
+
+}
+#select{
+   
+    width: 100%;
+    height:450px;
+    display:flex;
+    margin-top:15px;
+}
+#store_sel{
+ 
+    width:45%;
+    
+}
+#store_select>option:hover{
+    background-color: rgb(240, 38, 38);
+    color: white;
+ 
+}
+#store_select{
+    width:60%;
+    height:40px;
+    padding:5px;
+    overflow: scroll;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    color: rgb(143, 137, 137);
+}
+#store_Search_btn{
+    width:150px;
+    border:none;
+    background-color: #333333;
+    color: white;
+    height:40px;
+    margin-left: 30px;
+    font-family: "Interstate-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+#store_map{
+   
+    width:65%;
+    border: 1px solid gainsboro;
+}
+#store_map_inner{
+    width:100%;
+    height:100%;
+
+}
+#store_map_inner > iframe{
+    width:99.8%;
+    height:99%;
+    border: 1px solid rgb(128, 122, 122);
+    padding: 1px;
+}
+#store_extra{
+    width:100%;
+    height:50px;
+ 
+    display: flex;
+    justify-content: end;
+}
+#store_extra>div{
+
+    margin-left: 5px;
+    margin-top:15px;
+    cursor: pointer;
+}
+#store_extra>div > b{
+    text-decoration: underline;
+}
+#store_extra>div:nth-child(1){
+    font-weight: bold;
+    
+    
+}
+#store_extra>div:nth-child(2){
+    margin-right: 15px;
+}
+
+#store_city_details{
+    width:100%;
+    border:1px solid gainsboro;
+   
+    margin-right: 0%;
+    padding: 0%;
+}
+
+#store_store_head{
+    width: 100%;
+    height:50px;
+   
+    background-color: #ebebeb;
+    font-size: 18px;
+    font-family: "Interstate-Bold", sans-serif;
+
+}
+#store_store_head > h3{
+    margin-top: 1px;
+    background-color: #ebebeb;
+    padding: 15px;
+    color: #333333;
+}
+#store_cot_name{
+    width:95%;
+    height:60px;
+    margin: auto;
+    border-bottom:1px solid gray;
+    display: flex;
+    gap: 25%;
+    padding:5px;
+}
+#store_cot_name > div{
+ 
+    margin: auto;
+    margin-top: 25px;
+    font-size: 16px;
+    color: #333333;
+    font-family: "Interstate-Bold", sans-serif;
+}
+.store_cot_details{
+    width:95%;
+    height:110px;
+    margin: auto;
+    border-bottom:1px solid gray;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+   
+
+}
+.store_cot_details > div{
+    
+    margin: auto;
+    line-height: 5px;
+    width:100%;
+    font-size: 16px;
+    color: #333333;
+    font-family: "Interstate-Bold", sans-serif;
+
+
+}
+ .store_cot_details > div > h3 > a{
+     text-decoration: none;
+     color: #333333;
+     font-size: 16px;
+     display: flex;
+
+} 
+.store_cot_details > div:nth-child(3){
+    width:40%;
+}
+.store_cot_details > div:nth-child(3) > div{
+    display: flex;
+    gap:5%;
+
+}
+.store_cot_details > div:nth-child(3) > div> p > a{
+ 
+    color: #333333;
+
+}
+.fa{
+    margin-top: 5px;
+}
