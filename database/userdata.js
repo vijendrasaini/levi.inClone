@@ -94,3 +94,50 @@ function closePopup() {
 
   modal.style.display = "none";
 }
+
+function sendOtp() {
+  let f_content = document.getElementById("forgot_content");
+  let cred = document.getElementById("forgot_cred");
+  // let f_input = document.getElementById("forgot_email");
+  let f_email = document.getElementById("forgot_email").value;
+  let i = 0;
+  let otp_sent;
+  while (i < userDetails.length) {
+    if (userDetails[i].email == f_email) {
+      otp_sent = Math.floor(Math.random() * 899999 + 100000);
+      alert("Your OPT is :  " + otp_sent);
+      break;
+    }
+    i++;
+    if (i == userDetails.length) {
+      // alert("");
+      let alert1 = document.getElementById("alert1");
+      alert1.textContent = "Email ID not Registered";
+      alert1.style.color = "Red";
+
+      cred.append(alert1);
+      return;
+    }
+  }
+
+  let enter_otp = document.createElement("input");
+  enter_otp.setAttribute("placeholder", "Enter OTP");
+  cred.append(enter_otp);
+
+  let submit_btn = document.getElementById("send_otp");
+  submit_btn.style.display = "none";
+
+  let submit_otp = document.createElement("button");
+  submit_otp.textContent = "SUBMIT";
+  submit_otp.setAttribute("id", "submit_otp");
+  submit_otp.onclick = validateOtp;
+  f_content.append(submit_otp);
+
+  function validateOtp() {
+    let otp = enter_otp.value;
+    console.log(otp_sent, otp);
+    if (otp_sent == otp) {
+      alert("OTP match");
+    }
+  }
+}

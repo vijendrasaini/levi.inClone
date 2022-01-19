@@ -26,8 +26,8 @@
         <div id="forgot_popup">
           <div id="forgot_content">
             <div id="forgot_header">
-              <span id="close_popup" onclick="closePopup()">&times;</span>
-              <h2>Reset Your Password</h2>
+              <span id="close_popup" onclick="closePopup()">CLOSE</span>
+              <h2 id="reset_text">Reset Your Password</h2>
             </div>
             <div id="forgot_cred">
               <p>Please enter your email address to reset the password</p>
@@ -36,10 +36,10 @@
                 id="forgot_email"
                 placeholder="Email Address"
               />
-              <br />
-              <br />
-              <button onclick="sendOtp()" id="send_otp">SEND</button>
             </div>
+            <br />
+            <p id="alert1"></p>
+            <button onclick="sendOtp()" id="send_otp">SUBMIT</button>
           </div>
         </div>
         <button id="si_btn" onclick="signIn()">SIGN IN</button>
@@ -52,7 +52,7 @@
           <input type="email" id="suEmail" placeholder="Email Address" />
           <br />
           <br />
-          <input type="number" id="suPhone" placeholder="Mobile Number" />
+          <input type="tel" id="suPhone" placeholder="Mobile Number" />
           <br />
           <br />
           <input
@@ -68,7 +68,9 @@
           personal information, if any) by the relevant LS&Co. entity, including
           but not limited to direct marketing and overseas data transfers, as
           described in our
-          <span style="text-decoration: underline">Privacy Policy</span>
+          <span style="text-decoration: underline; cursor: pointer"
+            >Privacy Policy</span
+          >
         </p>
         <button id="su_btn" onclick="signUp()">CREATE AN ACCOUNT</button>
       </div>

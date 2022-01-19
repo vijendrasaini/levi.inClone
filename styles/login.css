@@ -75,17 +75,47 @@ button {
   width: 33%;
 }
 #close_popup {
-  color: #aaa;
+  color: #333;
   float: right;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
   cursor: pointer;
 }
-
 #close_popup:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+#reset_text {
+  margin-top: 0%;
+}
+#alert1 {
+  color: #c41230;
+  font-size: 14px;
+  font-weight: 400;
+}
+#send_otp {
+  width: 40%;
+  background-color: #c41230;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+#send_otp:hover {
+  background-color: black;
+  color: #ffffff;
+}
+#submit_otp {
+  width: 40%;
+  background-color: #c41230;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+#submit_otp:hover {
+  background-color: black;
+  color: #ffffff;
 }
 #si_btn {
   background-color: #c41230;
