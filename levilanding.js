@@ -14,11 +14,11 @@ function object(){
     if(dots.style.display==="none"){
         dots.style.display="inline";
         more.style.display="none";
-        buttonm.innerHTML="Read More";
+        buttonm.innerHTML="&#62 Read More";
     }
     else{
         dots.style.display="none";
         more.style.display="inline";
-        buttonm.innerHTML="Read Less";
+        buttonm.innerHTML="&#60 Read Less";
     }
 }

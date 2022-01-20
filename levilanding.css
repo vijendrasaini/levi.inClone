@@ -27,7 +27,7 @@
 }
 .pnavman{
     position: absolute;
-    width: 80%;
+    width: 90%;
     margin-top: -0.5%;
     display: flex;
     justify-content: center;
@@ -273,7 +273,7 @@ body{
     font-size: 13px;
     color: black;
 }
-@media only screen and (max-width:768px){
+@media only screen and (min-width:375px) and (max-width:667px){
     #p3img{
         width: 100%;
         display: grid;
@@ -310,5 +310,14 @@ body{
         grid-template-columns: repeat(1,1fr);
         text-align: left;
         font-size: 13px;
+    }
+    #pcontainer{
+        float: left;
+    }
+    #p3lastimg{
+        margin-bottom: 3%;
+    }
+    .pnavman{
+        width: 100%;
     }
 }
