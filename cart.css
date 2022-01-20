@@ -44,6 +44,24 @@ a{
     font-weight: 900;
     cursor: pointer;
 }
+#cartTotal{
+    width: 40%;
+   margin-left: 60%;
+}
+.subTotal{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.total{
+    font-weight: 600;
+    font-size: large;
+    letter-spacing: 1px;
+}
+.gst{
+    letter-spacing: 1px;
+    font-size: x-small;
+    font-weight: bold;
+}
 #continueShopping{
     padding: .5%;
     width: 235px;

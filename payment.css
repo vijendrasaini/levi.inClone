@@ -28,7 +28,21 @@ h4{
 }
 #payMethod{
     margin-top: 70px;
+    font-size: 13px;
+    font-weight: 500;
 }
+#payMethod > label{
+    margin-left: 10px;
+}
+.pay{
+    height: 20px;
+    width: 20px;
+}
+input[name = "paymentOptions"]{
+    accent-color: black;
+    margin-top: 25px;
+}
+
 #placeOrder{
     text-align: right;
     background-color: white;

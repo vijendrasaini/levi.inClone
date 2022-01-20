@@ -14,12 +14,11 @@
 <body>
     <header></header>
     <div id="checkoutPage">
-        <!---------------------shipping start--------------------->
-        <div id="shipping">
+        
+        <!-- <div id="shipping">
             <span>SHIPPING</span>
-        </div>
-        <!---------------------shipping end--------------------->
-        <hr>
+        </div> -->
+        
         <!---------------------shipping address start--------------------->
         <div id="shippingAddress">
             <h4>SHIPPING ADDRESS</h4>
@@ -69,7 +68,7 @@
     </div>
     <footer></footer>
     <div id="proceedToCheckout">
-        <button id="proceedToCheckoutBtn">PROCEED TO CHECKOUT</button>
+        <button id="proceedToCheckoutBtn" onclick="proceedToCheckOut()">PROCEED TO CHECKOUT</button>
     </div>
 </body>
 
@@ -89,4 +88,9 @@
     import footer from "./footer.js"
 
     document.getElementsByTagName("footer")[0].innerHTML = footer()
+</script>
+<script>
+    function proceedToCheckOut() {
+        window.location.href = "./payment.html"
+    }
 </script>

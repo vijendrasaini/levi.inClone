@@ -76,6 +76,14 @@
             <button id="apply">APPLY</button>
         </div>
         <!--------------------------promo code div end----------------------------------->
+        <!--------------------------cart total div start----------------------------------->
+        <div id="cartTotal">
+            <span class="subTotal">SUB TOTAL</span>
+            <hr>
+            <span class="total">TOTAL</span> <span class="gst">(INCLUSIVE OF GST)</span>
+        </div>
+
+        <!--------------------------cart total div end----------------------------------->
         <hr>
         <!--------------------------continue shopping start----------------------------------->
         <div>
@@ -87,7 +95,7 @@
     <!--------------------------cart container end----------------------------------->
     <footer></footer>
     <div id="checkout">
-        <button id="checkoutBtn">CHECKOUT</button>
+        <button onclick="checkOut()" id="checkoutBtn">CHECKOUT</button>
     </div>
 </body>
 
@@ -107,4 +115,9 @@
     import footer from "./footer.js"
 
     document.getElementsByTagName("footer")[0].innerHTML = footer()
+</script>
+<script>
+    function checkOut() {
+        window.location.href = "./shipping.html"
+    }
 </script>

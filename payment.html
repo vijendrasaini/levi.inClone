@@ -29,15 +29,23 @@
                 zones. Orders from such areas will be on hold until they are serviceable.</p>
         </div>
         <div id="payMethod">
-            <li>Debit Card/Credit Card/Net Banking</li>
-            <li>UPI</li>
-            <li>Paytm</li>
-            <li>PhonePe Mobile Wallet</li>
+            <input class="pay" type="radio" name="paymentOptions" value="Debit Card/Credit Card/Net Banking">
+            <label for="">Debit Card/Credit Card/Net Banking</label>
+            <br>
+            <input class="pay" type="radio" name="paymentOptions" value="UPI">
+            <label for="">UPI</label>
+            <br>
+            <input class="pay" type="radio" name="paymentOptions" value="Paytm">
+            <label for="">Paytm</label>
+            <br>
+            <input class="pay" type="radio" name="paymentOptions" value="PhonePe Mobile Wallet">
+            <label for="">PhonePe Mobile Wallet</label>
+
         </div>
     </div>
     <footer></footer>
     <div id="placeOrder">
-        <button id="placeOrderBtn">PLACE ORDER</button>
+        <button onclick="PlaceOrder()" id="placeOrderBtn">PLACE ORDER</button>
     </div>
 </body>
 
@@ -57,4 +65,9 @@
     import footer from "./footer.js"
 
     document.getElementsByTagName("footer")[0].innerHTML = footer()
+</script>
+<script>
+    function PlaceOrder() {
+        window.location.href = "./orderConfirmation.html"
+    }
 </script>
