@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Levi's® for Men - Shop Clothing, Accessories & Footwear | Levi's® India</title>
+    <link rel="stylesheet" href="./menProducts.css">
+</head>
+
+<body>
+    <div id="productPage">
+        <div id="leftDiv">
+            <span>REFINE</span>
+            <hr>
+            <div class="gender"></div>
+            <span>GENDER</span>
+            <hr>
+            <div class="type"></div>
+            <span>ITEM TYPE</span>
+            <hr>
+            <div class="price"></div>
+            <span>PRICE</span>
+            <hr>
+            <div class="size"></div>
+            <span>SIZE</span>
+            <hr>
+            <div class="color"></div>
+            <span>COLOUR</span>
+            <hr>
+        </div>
+        <div id="rightDiv">
+            <span>984 Styles</span>
+            <div id="menProductDiv"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    async function getProductData() {
+        try {
+            let res = await fetch(`http://127.0.0.1:7000/api/products`);
+            let data = await res.json();
+            appendMenData(data);
+            console.log(data);
+        } catch (err) {
+            console.log(error);
+        }
+    }
+    getProductData();
+    let appendMenData = (data) => {
+        data.map((elems) => {
+            let menDiv = document.createElement("div");
+            menDiv.setAttribute("class", "menDiv");
+
+            let priceDiv = document.createElement("div");
+            priceDiv.setAttribute("class", "priceDiv");
+
+            let image = document.createElement("img");
+            image.src = elems.image;
+            image.setAttribute("class", "menImg");
+
+            let title = document.createElement("p");
+            title.innerText = "Levi's® " + elems.title;
+            title.setAttribute("class", "menTitle");
+
+            let mrpp = document.createElement("p");
+            mrpp.innerText = "₹"  + elems.price.mrp;
+            mrpp.setAttribute("class", "mrpp");
+
+            let pricee = document.createElement("p");
+            pricee.innerText = "₹"  + elems.price.price;
+            pricee.setAttribute("class", "pricee");
+
+            let dis = document.createElement("p");
+            dis.innerText = "(" + elems.price.disc + "% off)";
+            dis.setAttribute("class", "dis");
+
+            priceDiv.append(mrpp, pricee, dis);
+            menDiv.append(image, title, priceDiv);
+            document.getElementById("menProductDiv").append(menDiv);
+
+        });
+    }
+</script>
