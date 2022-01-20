@@ -106,15 +106,15 @@
         {
             
             "title": "LIGHTWEIGHT QUILTED PACKABLE VEST",
-            "item_no":818800007,
+            "item_no":"818800007",
             "gender": "men",
             "category": "clothing",
             "type": "jackets",
-            "color": {
-              "white": 1,
-              "black": 1,
-              "beige": 0
-            },
+            "color": [
+              "black",
+              "green",
+              "beige"
+            ],
             "price": {
               "mrp": 1699,
               "disc": 50,
