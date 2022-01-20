@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+}
+#pheading1{
+     margin-top: 2%;
+}
+input{
+    height:40px;
+}
+/* background-color: rgb(240, 240, 240); */
+#pcontainer{
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+.pfont1{
+    font-family:Interstate-Bold,Sans-serif;
+}
+
+.pinput{
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+#pcheck{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: space-between;
+}
+#ppch{
+    font-size: 18px;
+    margin-bottom: 4%;
+    color:rgb(159, 160, 130)
+}
+.ppcheck{
+    width: 30px;
+    height: 40px;
+}
+#pcare{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+#psel1{
+    /* height:50px; */
+    width:10%;
+    margin-right:2%;
+}
+#pnum{
+    width: 20%;
+    margin-right:2%;
+
+}
+#pb1{
+    height: 45px;
+    background-color: rgb(204, 204, 204);
+}
+#pmail{
+    width: 30%;
+    margin-right:2%;
+}
+#pjoin{
+    color: white;
+    background-color: black;
+    width: 15%;
+    text-align: center;
+    cursor: pointer;
+}
+#ph2{
+    margin-top: 2%;
+}
+#pb2{
+    color: white;
+    background-color: black;
+    width: 12%;
+    text-align: center;
+    cursor: pointer;
+}
+#porder{
+    margin-right:2%;
+    width: 20%;
+}
+#pepm{
+    margin-right:1.5%;
+    width: 20%;
+    
+}
+/* .pspace{
+    margin-bottom:0;
+} */
+#psymbol{
+    margin-top: 1.5%;
+    justify-content: center;
+}
+h3{
+    cursor: pointer;
+}
