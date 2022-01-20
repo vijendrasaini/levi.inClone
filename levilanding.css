@@ -1,9 +1,7 @@
 #puniversal{
-     width:80%; 
-    margin-right: 10%;
-    margin-left: 10%;
+     width:90%; 
+     margin: auto;
 }
-
 #pinterval{
     margin-top: 1%;
     width: 100%;
@@ -36,7 +34,6 @@
 }
 .pmanbtn{
     border: 2px solid black;
-    /* background-color: black; */
     padding: .4%;
     border-radius: 50%;
     cursor: pointer;
@@ -141,11 +138,15 @@
     opacity: 0.6;
     transition: 0.3s;
 }
-p{
+#pondiv p{
     text-size-adjust: 100%;
-    color:rgb(147, 138, 131);
+    color:rgb(90, 86, 83);
     font-family: sans-serif;
-    font-size: large;
+    font-size: 17px;
+    /* width: 90%; */
+}
+#pondiv #pmore{
+    display: none;
 }
 #ponclick{
      border: transparent;
@@ -164,63 +165,71 @@ body{
 #pheading1{
      margin-top: 2%;
 }
-input{
-    height:40px;
+.pinput input{
+    height:35px;
 }
 /* background-color: rgb(240, 240, 240); */
 #pcontainer{
     margin: 0px;
+    padding-top: 10px;
+    border: 1px solid transparent;
     text-align: center;
+    margin-top: 23px;
     background-color: rgb(240, 240, 240);
 }
 .pfont1{
     font-family:Interstate-Bold,Sans-serif;
+    font-size: 25px;
+    /* margin-top: 20px; */
 }
 
-.pinput{
-    display: flex;
-    margin-bottom: 2%;
-    justify-content: center;
-}
 #pcheck{
-    display: flex;
-    margin-left: 8%;
-    margin-right: 8%;
-    justify-content: space-between;
-}
-#ppch{
-    font-size: 18px;
-    margin-bottom: 4%;
-    color:rgb(159, 160, 130)
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: -10px;
+    /* text-align: center; */
 }
 .ppcheck{
-    width: 30px;
-    height: 40px;
+    width: 20px;
+    height: 30px;
 }
 #pcare{
     display: grid;
+    margin-top: 30px;
+    padding-left: 30px;
+    color: rgb(43, 39, 39);
     grid-template-rows: repeat(1,1fr);
     grid-template-columns: repeat(5,1fr);
     text-align: left;
     justify-content: space-between;
+    font-size: 14px;
 }
 #psel1{
-    /* height:50px; */
+    height:40px;
     width:10%;
     margin-right:2%;
 }
-#pnum{
-    width: 20%;
-    margin-right:2%;
-
+.pinput{
+    display: flex;
+    padding: 0px 100px;
+    margin-bottom: 2%;
+    justify-content: center;
 }
 #pb1{
-    height: 45px;
+    border: none;
+    padding: 0px 12px;
     background-color: rgb(204, 204, 204);
 }
-#pmail{
-    width: 30%;
+#pnum{
     margin-right:2%;
+    padding: 1px;
+    padding-left: 15px;
+}
+#pmail{
+    padding-left: 15px;
+    margin-right:2%;
+    width: 350px;
 }
 #pjoin{
     color: white;
@@ -255,8 +264,14 @@ input{
     margin-top: 1.5%;
     justify-content: center;
 }
-h3{
+#pcare h3{
     cursor: pointer;
+    margin: 9px;
+    /* padding: 0px; */
+}
+.pspace p{
+    font-size: 13px;
+    color: black;
 }
 @media only screen and (max-width:768px){
     #p3img{
