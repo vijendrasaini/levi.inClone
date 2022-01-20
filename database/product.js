@@ -53,7 +53,7 @@ function singleProd(single) {
   pname.setAttribute("id", "p_name");
 
   let pnum = document.createElement("p");
-  // console.log(single.item_no);
+  pnum.setAttribute("id", "p_num");
   pnum.textContent = "Item Number:" + single.item_no.toString();
 
   let price_sec = document.createElement("div");
@@ -93,11 +93,6 @@ function singleProd(single) {
     colors.append(color_block);
   }
 
-  // console.log(color_array);
-
-  let line = document.createElement("hr");
-  line.setAttribute("width", "100%");
-
   let size_text = document.createElement("h4");
   size_text.innerText = "Size";
 
@@ -108,11 +103,16 @@ function singleProd(single) {
   for (var x in sizes) {
     let size_box = document.createElement("div");
     size_box.setAttribute("id", "size_box");
+    // size_box.onclick = selectSize(size_box);
     size_box.textContent = x;
     size_row.append(size_box);
   }
-  let line1 = document.createElement("hr");
-  line1.setAttribute("width", "100%");
+  //<------------SIZE SELECT function----------->
+
+  function selectSize(size_box) {
+    size_box.style.backgroundColor = "#333333";
+    size_box.style.color = "#ffffff";
+  }
 
   let del_text = document.createElement("h4");
   del_text.innerText = "Delivery Eligibility";
@@ -157,13 +157,14 @@ function singleProd(single) {
   add_cart_btn.innerText = "ADD TO CART";
   // add_cart_btn.onclick = addCart;
 
+  //<-----------ADD TO CART function-------->
+
   let buy_now = document.createElement("button");
   buy_now.setAttribute("id", "buy_now");
   buy_now.innerText = "BUY NOW";
   // buy_now.onclick = buyNow;
 
-  // let qty_text = document.createElement('div');
-  // let qty_text = document.createElement('div');
+  //<-----------BUY NOW function------------>
 
   buy_div.append(qty_text, qty_sel, add_cart_btn, buy_now);
   price_sec.append(mrp, price, disc);
@@ -175,10 +176,8 @@ function singleProd(single) {
     color_text,
     sel_color,
     colors,
-    line,
     size_text,
     size_row,
-    line1,
     del_text,
     del_div,
     buy_div
