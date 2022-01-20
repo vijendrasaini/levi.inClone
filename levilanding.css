@@ -80,14 +80,7 @@
     grid-template-rows: repeat(1,1fr);
     grid-gap: 1.5%;
 }
-/* @media only screen and (max-width:768px){
-    #r1twothreebox{
-        grid-template-columns: repeat(1,1fr);
-         grid-template-rows: repeat(6,1fr); 
-        grid-gap: 5%;
-        margin-bottom: 18%;
-    }
-} */
+
 #p1img{
     margin-top: 1%;
     width: 100%;
