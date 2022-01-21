@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 
 Black header/Black_footer.js
+=======
+BACKEND/node_modules
+BACKEND/package-lock.json
+BACKEND/package.json
+>>>>>>> a921f108d2d8027753513102cddf15010e7f8ff9
