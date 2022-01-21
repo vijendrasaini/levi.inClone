@@ -9,7 +9,6 @@ body{
 #cartHeader{
     display: grid;
     grid-template-columns: 42% 25% 25% 25%;
-    /* grid-gap: 270px; */
 }
 span{
     font-weight: lighter;
@@ -18,13 +17,30 @@ span{
 #productDescription{
     display: grid;
     grid-template-columns: 42% 25% 25% 25%;
-    /* grid-gap: 270px; */
 }
 #quantity{
     width: 50px;
     height: 25px;
 }
-a{
+#productDetails{
+    display: grid;
+    grid-template-columns: 28% 72%;
+}
+#productDetails img{
+    border: 1px solid rgb(207, 193, 193);
+}
+#details span{
+    font-weight: 700;
+}
+#details p{
+    font-size: 12px;
+    line-height: 7px;
+}
+#details a{
+    font-size: 12px;
+    color: black;
+}
+#rem a{
     color: rgb(211, 27, 27);
     font-size: small;
 }

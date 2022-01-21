@@ -4,11 +4,6 @@
 <head>
     <title>Shopping Cart | Levi's® India</title>
     <link rel="stylesheet" href="./cart.css">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="black_header.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 
 <body>
@@ -36,17 +31,18 @@
             <div id="productDetails">
                 <img src="https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwa71c3e96/images/hi-res/A13810001/A13810001_01_Front.jpg?sw=75&sh=100"
                     alt="">
-                <span>LEVI'S PRINTED TEE
-                    <p>Green</p>
-                    <p>XS</p>
-                </span>
-                <span>EDIT</span>
+                <div id="details">
+                    <span>LEVI'S® 711 SKINNY JEANS</span>
+                        <p>Green</p>
+                        <p>XS</p>
+                    <a href="">EDIT</a>
+                </div>
             </div>
             <!--------------------------product details end----------------------------------->
 
             <!--------------------------quantity div start----------------------------------->
 
-            <div>
+            <div id="rem">
                 <input id="quantity" type="number"> <br>
                 <a href="">REMOVE</a>
             </div>
@@ -67,6 +63,7 @@
 
         </div>
         <!--------------------------product description end----------------------------------->
+        <br>
         <hr>
 
         <!--------------------------promo code div start----------------------------------->
@@ -100,22 +97,6 @@
 </body>
 
 </html>
-<script type="module">
-    import { popup, headernav } from "./popupfunc.js"
-
-    document.getElementsByTagName("header")[0].innerHTML = headernav()
-    popup("Header_E", "Header_sale")
-    popup("Header_A", "Header_men")
-    popup("Header_B", "Header_women")
-    popup("Header_C", "Header_newarrivals")
-    popup("Header_D", "Header_collection")
-</script>
-<script type="module">
-
-    import footer from "./footer.js"
-
-    document.getElementsByTagName("footer")[0].innerHTML = footer()
-</script>
 <script>
     function checkOut() {
         window.location.href = "./shipping.html"
