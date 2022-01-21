@@ -59,6 +59,10 @@ body{
 .category-name>li:last-child{
     color: red;
 }
+.category-name>li>span>a{
+    text-decoration: none;
+    color: black;
+}
 .category-container {
     background-color: white;
     display: flex;
