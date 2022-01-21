@@ -13,17 +13,17 @@
         <!---------------------shipping address start--------------------->
         <div id="shippingAddress">
             <h4>SHIPPING ADDRESS</h4>
-            <input type="email" placeholder="Email Address"> <br>
-            <input type="text" placeholder="First Name"> <br>
-            <input type="text" placeholder="Last Name"> <br>
-            <input type="number" placeholder="PIN Code" id="pin"> <br>
-            <input type="text" placeholder="Flat no./House no./Building Name"> <br>
-            <input type="text" placeholder="Area/Street"> <br>
+            <input type="email" required placeholder="Email Address" > <br>
+            <input type="text" required placeholder="First Name"> <br>
+            <input type="text" required placeholder="Last Name"> <br>
+            <input type="number" required placeholder="PIN Code" id="pin"> <br>
+            <input type="text" required placeholder="Flat no./House no./Building Name"> <br>
+            <input type="text" required placeholder="Area/Street"> <br>
             <input type="text" placeholder="Landmark (Optional)"> <br>
-            <input type="text" placeholder="City/District/Town"> <br>
-            <input type="number" placeholder="Mobile Number"> <br>
-            <select name="" id="">
-                <option value="">State</option>
+            <input type="text" required placeholder="City/District/Town"> <br>
+            <input type="number" required placeholder="Mobile Number"> <br>
+            <select name="" id="states" required>
+                <option value=""  disabled selected hidden>State</option>
                 <option value="">Andhra Pradesh</option>
                 <option value="">Arunachal Pradesh</option>
                 <option value="">Assam</option>
@@ -67,6 +67,7 @@
 
 <script>
     function proceedToCheckOut() {
+        
         window.location.href = "./payment.html"
     }
 </script>

@@ -20,24 +20,29 @@ body{
 }
 h4{
     color: rgb(68, 65, 65);
-    letter-spacing: 1px;
+    letter-spacing: .5px;
+    font-size: 20px;
 }
 #paymentMethod > p{
-    color: red;
-    font-size: x-small;
-}
-#payMethod{
-    margin-top: 70px;
+    color: rgb(223, 58, 58);
     font-size: 13px;
     font-weight: 500;
 }
-#payMethod > label{
+#payMethod{
+    margin-top: 70px;
+    font-size: 17px;
+    font-weight: 400;
+}
+#payMethod > span{
     margin-left: 10px;
+    margin-bottom: 50px;
+    
 }
 .pay{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
+
 input[name = "paymentOptions"]{
     accent-color: black;
     margin-top: 25px;

@@ -2,27 +2,41 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #checkoutPage{
-    width: 75%;
+    width: 85%;
     margin: auto;
 }
 #shippingAddress{
-    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+option:first{
+    color: grey;
+}
+
 h4{
+    width: 300px;
+    margin: auto;
     color: rgb(68, 65, 65);
     border-bottom: gray 1px solid;
+    text-align: center;
+    margin-bottom: 25px;
 }
 input, select{
-    width: 370px;
-    height: 30px;
+    width: 470px;
     margin-bottom: 10px;
-    font-size: x-small;
+    font-size: small;
     font-weight: lighter;
     border: 1px solid rgb(192, 183, 183);
+    padding: 3%;
 }
 #pin{
     width: 150px;
-    justify-content: left;
 }
 #proceedToCheckout{
     text-align: right;
@@ -42,7 +56,7 @@ input, select{
     color: white;
     font-weight: bold;
     letter-spacing: .5px;
-    background-color: rgb(236, 10, 10);
+    background-color: rgb(190, 9, 9);
     cursor: pointer;
 
 }

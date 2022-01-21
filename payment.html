@@ -29,17 +29,21 @@
                 zones. Orders from such areas will be on hold until they are serviceable.</p>
         </div>
         <div id="payMethod">
+
             <input class="pay" type="radio" name="paymentOptions" value="Debit Card/Credit Card/Net Banking">
-            <label for="">Debit Card/Credit Card/Net Banking</label>
+            <span>Debit Card/Credit Card/Net Banking</span>
             <br>
+
             <input class="pay" type="radio" name="paymentOptions" value="UPI">
-            <label for="">UPI</label>
+            <span>UPI</span>
             <br>
+
             <input class="pay" type="radio" name="paymentOptions" value="Paytm">
-            <label for="">Paytm</label>
+            <span>Paytm</span>
             <br>
+
             <input class="pay" type="radio" name="paymentOptions" value="PhonePe Mobile Wallet">
-            <label for="">PhonePe Mobile Wallet</label>
+            <span>PhonePe Mobile Wallet</span>
 
         </div>
     </div>
@@ -50,22 +54,7 @@
 </body>
 
 </html>
-<script type="module">
-    import { popup, headernav } from "./popupfunc.js"
 
-    document.getElementsByTagName("header")[0].innerHTML = headernav()
-    popup("Header_E", "Header_sale")
-    popup("Header_A", "Header_men")
-    popup("Header_B", "Header_women")
-    popup("Header_C", "Header_newarrivals")
-    popup("Header_D", "Header_collection")
-</script>
-<script type="module">
-
-    import footer from "./footer.js"
-
-    document.getElementsByTagName("footer")[0].innerHTML = footer()
-</script>
 <script>
     function PlaceOrder() {
         window.location.href = "./orderConfirmation.html"
