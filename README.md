@@ -98,14 +98,24 @@ These are the components outlined in levi's site. All levi's components support 
 
 ---
 
-### User's Data Code Block
+### Homepage Data Code Block
 
 ```
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+    "homepageProducts":[
+        {
+            "id" :"1",
+            "title":"Levi's® Polo Tee",
+            "price":{
+                "mrp":"1999.00",
+                "priceWithDisc":"999.50",
+                "disc":"50"
+            },
+            "imgUrl":{"front":"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwa7fce1cb/images/hi-res/174740158/174740158_01_Front.jpg?sw=299&sh=397","back":"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw6426ada1/images/hi-res/174740158/174740158_02_Back.jpg?sw=299&sh=397"}
+         }
+      ]
 }
+       
 ```
 
 
