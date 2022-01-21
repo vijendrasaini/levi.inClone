@@ -10,7 +10,7 @@ async function fetchData() {
     obj = response;
     console.log(obj);
     let single = [];
-    single = obj[0];
+    single = obj[1];
     console.log(single);
     singleProd(single);
   } catch (error) {

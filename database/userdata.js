@@ -1,5 +1,27 @@
 let userDetails = JSON.parse(localStorage.getItem("users"));
 
+let url1 = "http://127.0.0.1:7000/api/users";
+
+// let obj;
+fetchuserData();
+
+async function fetchuserData() {
+  try {
+    let data = await fetch(url1);
+    let response = await data.json();
+    let obj = response;
+    console.log(obj);
+    // let single = [];
+    // single = obj[1];
+    // console.log(single);
+    // singleProd(single);
+  } catch (error) {
+    console.log("error is:", error);
+  }
+}
+
+console.log(userDetails);
+
 function signIn() {
   if (userDetails.length === 0) {
     alert("User not found!");

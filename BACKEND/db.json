@@ -805,5 +805,39 @@
                 "Zip Fly with Button Closure"],
             "material": ["76% Cotton, 21% Polyester, 3% Elastane"]
         }
+    ],
+    "users": [
+      {
+        "email": "demo@levi.com",
+        "password": "11112222",
+        "phone": "9876543210",
+        "cart": [],
+        "orders": [],
+        "status": false
+      },
+      {
+        "email": "demo1@levi.com",
+        "password": "11445522",
+        "phone": "9876543211",
+        "cart": [],
+        "orders": [],
+        "status": false
+      },
+      {
+        "email": "demo3@levi.com",
+        "password": "11112221",
+        "phone": "9876542310",
+        "cart": [],
+        "orders": [],
+        "status": false
+      },
+      {
+        "email": "demo4@levi.com",
+        "password": "21391801",
+        "phone": "9988776655",
+        "cart": [],
+        "orders": [],
+        "status": false
+      }
     ]
 }
