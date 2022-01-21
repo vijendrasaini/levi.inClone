@@ -1,5 +1,10 @@
+body{
+    letter-spacing: .5px;
+    line-height: 30px;
+}
 #pbody{
     width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-right: 10%;
     margin-left: 10%;
 }
@@ -7,9 +12,6 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
-    /* gap: .5%; */
-    /* margin-bottom: 5%; */
-    /* justify-content: space-evenly; */
 }
 #ph3r{
     margin-bottom: 0%;
@@ -80,9 +82,7 @@
 }
 
 .phimg{
-    /* text-align: center; */
     margin-left:40%;
-    /* padding: 2%; */
 }
 h2{
     margin-left:35%;
