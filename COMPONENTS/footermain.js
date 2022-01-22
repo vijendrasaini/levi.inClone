@@ -1,15 +1,5 @@
 function footermain() {
     return `
-<div id="footer_one">
-    <div>
-        TRACK ORDER
-    </div>
-    <div>
-        <input type="text" placeholder="Order Number">
-        <input type="text" placeholder="EmailAddress/MobileNumber">
-        <button>TRACK</button>
-    </div>
-</div>
 <div id="footer_two">
 <div>
     <ul>
