@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account login</title>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="./STYLES/login.css" />
+    <link rel="stylesheet" href="./STYLES/header.css">
+    <link rel="stylesheet" href="./STYLES/footermain.css">
+  </head>
+  <body>
+    <header class="complete-header"></header>
+    <div id="login_content">
+      <div id="signin">
+        <p id="login_heading">ALREADY A CUSTOMER</p>
+        <form id="sign_in_form">
+          <input type="email" id="si_email" placeholder="Email Address" />
+          <br />
+          <br />
+          <input
+            type="password"
+            id="si_password"
+            placeholder="Password (at least 8 character long)"
+          />
+        </form>
+        <p id="forgot" onclick="forgot()">Forgot Password?</p>
+        <div id="forgot_popup">
+          <div id="forgot_content">
+            <div id="forgot_header">
+              <span id="close_popup" onclick="closePopup()">CLOSE</span>
+              <h2 id="reset_text">Reset Your Password</h2>
+            </div>
+            <div id="forgot_cred">
+              <p>Please enter your email address to reset the password</p>
+              <input
+                type="email"
+                id="forgot_email"
+                placeholder="Email Address"
+              />
+            </div>
+            <br />
+            <p id="alert1"></p>
+            <button onclick="sendOtp()" id="send_otp">SUBMIT</button>
+          </div>
+        </div>
+        <button id="si_btn" onclick="signIn()">SIGN IN</button>
+        <p id="or">OR</p>
+        <button id="google_sign_in">SIGN IN WITH GOOGLE</button>
+      </div>
+      <div id="signup">
+        <p id="login_heading">NEW CUSTOMER</p>
+        <form id="sign_up_form">
+          <input type="email" id="suEmail" placeholder="Email Address" />
+          <br />
+          <br />
+          <input type="tel" id="suPhone" placeholder="Mobile Number" />
+          <br />
+          <br />
+          <input
+            type="password"
+            id="suPassword"
+            placeholder="Password (at least 8 characters long)"
+          />
+        </form>
+        <p>
+          By Creating an account, you hereby explicitly consent to the
+          collection, use, disclosure, transfer to third party and other
+          processing of your personal information (including your sensitive
+          personal information, if any) by the relevant LS&Co. entity, including
+          but not limited to direct marketing and overseas data transfers, as
+          described in our
+          <span style="text-decoration: underline; cursor: pointer"
+            >Privacy Policy</span
+          >
+        </p>
+        <button id="su_btn" onclick="signUp()">CREATE AN ACCOUNT</button>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>
+<script type="module">
+  import navbar from "./COMPONENTS/header.js"
+  import footermain from "./COMPONENTS/footermain.js"
+
+  document.getElementsByTagName("footer")[0].innerHTML=footermain()
+  document.getElementsByTagName('header')[0].innerHTML = navbar()
+
+</script>
+<script src="./SCRIPTS/login.js"></script>
