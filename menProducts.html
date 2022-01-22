@@ -14,10 +14,24 @@
     
     <header class="complete-header"></header>
     <div id="tpcc">
-        <h2>REFINE</h2>
-        <h2>
-            Total Style : <span id="totalProductsIn"></span>
-        </h2>
+        <div>
+            <h2>REFINE</h2>
+        </div>
+        <div id="pro_sort">
+            <div>
+                <h2>
+                    Total Style : <span id="totalProductsIn"></span>
+                </h2>
+            </div>
+            <div id="selectCon">
+                <select id="sortSelect">
+                    <option value="low">Price : low to high</option>
+                    <option value="high">Price : High to low</option>
+                    <option value="a">Sort : A to Z</option>
+                    <option value="z">Sort : Z to A</option>
+                </select>
+            </div>
+        </div>
     </div>
     <div id="productPage">
         <div id="leftDiv">
@@ -25,9 +39,9 @@
             <div class="">
                 <div class="open-close">
                     <span>GENDER</span>
-                    <span><i class="fas fa-plus-circle"></i></span> 
+                    <span class="openAndClose"><i class="fas fa-plus-circle"></i></span> 
                 </div>
-                <div>
+                <div class="openAndCloseDiv" id="openAndCloseDiv0">
                     <input type="checkbox">
                     <label for="">Men</label> <br>
                     <input type="checkbox">
@@ -38,9 +52,9 @@
             <div class="">
                 <div class="open-close">
                     <span>ITEM TYPE</span>
-                    <span><i class="fas fa-plus-circle"></i></span> 
+                    <span class="openAndClose"><i class="fas fa-plus-circle"></i></span> 
                 </div>
-                <div>
+                <div class="openAndCloseDiv" id="openAndCloseDiv1">
                     <input type="checkbox">
                     <label for="">Cap</label> <br>
                     <input type="checkbox">
@@ -61,9 +75,9 @@
             <div class="">
                 <div class="open-close">
                     <span>PRICE</span>
-                    <span><i class="fas fa-plus-circle"></i></span> 
+                    <span class="openAndClose"><i class="fas fa-plus-circle"></i></span> 
                 </div>
-                <div>
+                <div class="openAndCloseDiv" id="openAndCloseDiv2">
                     <input type="radio" name="priceRadioInput" value="" class="priceRadioInputClass">
                     <label for="">₹0 - ₹1000</label><br>
                     <input type="radio" name="priceRadioInput" value="" class="priceRadioInputClass">
@@ -78,9 +92,9 @@
             <div class="">
                 <div class="open-close">
                     <span>SIZE</span>
-                    <span><i class="fas fa-plus-circle"></i></span> 
+                    <span class="openAndClose"><i class="fas fa-plus-circle"></i></span> 
                 </div>
-                <div>
+                <div class="openAndCloseDiv" id="openAndCloseDiv3">
                     <input type="checkbox">
                     <label for="">XS</label> <br>
                     <input type="checkbox">
@@ -99,9 +113,9 @@
             <div class="">
                 <div class="open-close">
                     <span>COLOUR</span>
-                    <span><i class="fas fa-plus-circle"></i></span> 
+                    <span class="openAndClose"><i class="fas fa-plus-circle"></i></span> 
                 </div>
-                <div> 
+                <div class="openAndCloseDiv" id="openAndCloseDiv4"> 
                 </div>
             </div>
             <hr>
