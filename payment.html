@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/599713bf7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./STYLES/header.css">
+    <link rel="stylesheet" href="./STYLES/footermain.css">
+    <link rel="stylesheet" href="./STYLES/payment.css">
+    <title>Payment</title>
+</head>
+
+<body>
+    <header class="complete-header"></header>
+    <div id="payment_gateway">
+        <div class="heading">
+            <div>PAYMENT METHOD</div>
+        </div>
+        <div class="font">
+            <p>DELIVERY> <span class="light">REVIEW & PAYMENTS</span>></p>
+            <hr>
+            <br>
+        </div>
+        <div>
+            <div class="medias">
+                <div>
+                    <label class="font">EMAIL ADDRESS *</label><br><br>
+                    <input class="box" id="email" type="email" /><br><br>
+                    <div class="medias">
+                        <div>
+                            <label class="font">FIRST NAME *</label><br><br>
+                            <input class="box" id="fname" type="text" /><br><br>
+                        </div>
+                        <div>
+                            <label class="font">LAST NAME *</label><br><br>
+                            <input class="box" id="lname" type="text" /><br><br>
+                        </div>
+                    </div>
+                    <label class="font">SHIPPING ADDRESS *</label><br>
+                    <hr><br>
+                    <div class="medias">
+                        <div>
+                            <input class="box" id="ads1" type="text" /><br><br>
+                        </div>
+                        <div>
+                            <input class="box" id="ads2" type="text" /><br><br>
+                        </div>
+                    </div>
+                    <div class="medias">
+                        <div>
+                            <label class="font">CITY *</label><br><br>
+                            <input class="box" id="city" type="text" /><br><br>
+                        </div>
+                        <div>
+                            <label class="font">STATE/PROVINCE *</label><br><br>
+                            <select name="" id="state1">
+                                <option value="-"></option>
+                                <option value="ANDRA PRADESH">ANDRA PRADESH</option>
+                                <option value="KARNATAKA">KARNATAKA</option>
+                                <option value="KERALA">KERALA</option>
+                                <option value="MAHARASTRA">MAHARASTRA</option>
+                                <option value="TAMILNADU">TAMILNADU</option>
+                            </select><br><br>
+                        </div>
+                    </div>
+                    <div class="medias">
+                        <div>
+                            <label class="font">ZIP/POSTAL CODE *</label><br><br>
+                            <input class="box" id="zip1" type="tel" /><br><br>
+                        </div>
+                        <div>
+                            <label class="font">COUNTRY *</label><br><br>
+                            <select name="" id="country">
+                                <option value="-"></option>
+                                <option value="INDIA">INDIA</option>
+                                <option value="AUSTRALIA">AUSTRALIA</option>
+                                <option value="NEW ZEALAND">NEW ZEALAND</option>
+                                <option value="DUBAI">DUBAI</option>
+                                <option value="ENGLAND">ENGLAND</option>
+                            </select><br><br>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="font">NUMBER *</label><br><br>
+                        <input class="box" id="num" type="number" /><br><br>
+                    </div>
+                    <p class="font">ENTER YOUR CARD INFORMATION:</p>
+                    <hr>
+                    <div class="medias">
+                        <div>
+                            <label class="font">NAME ON CARD *</label><br><br>
+                            <input class="box" id="crdnm" type="text" /><br><br>
+                        </div>
+                        <div>
+                            <label class="font">CARD NUMBER *</label><br><br>
+                            <input class="box" id="crdnum" type="number" /><br><br>
+                        </div>
+                    </div>
+                    <div class="medias">
+                        <div>
+                            <label class="font">EXPIRATION DATE *</label><br><br>
+                            <input class="box" id="exdate" type="date" /><br><br>
+                        </div>
+                        <div>
+                            <label class="font">CVV NO *</label><br><br>
+                            <input class="box" id="cvsnum" type="password" maxlength="3" /><br><br>
+                        </div>
+                    </div>
+                    <div class="medias">
+                        <div>
+                            <label class="font">STATE *</label><br><br>
+                            <input class="box" id="state2" type="text" /><br><br>
+                        </div>
+                        <div>
+                            <label class="font">ZIP CODE *</label><br><br>
+                            <input class="box" id="zip2" type="number" /><br><br>
+                        </div>
+                    </div>
+                    <hr><br>
+                    <div>
+                        <button class="btn" onclick="thanks()">PROCEED TO PAYMENT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
+<script type="module">
+    import navbar from "./COMPONENTS/header.js"
+    import footermain from "./COMPONENTS/footermain.js"
+
+    document.getElementsByTagName("footer")[0].innerHTML=footermain()
+    document.getElementsByTagName('header')[0].innerHTML = navbar()
+</script>
+<script>
+    function thanks(){
+        window.location.href = "thanks.html"
+    }
+</script>
