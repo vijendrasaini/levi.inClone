@@ -166,21 +166,21 @@ function singleProd(single) {
       let currentUser = result.currentuser;
       currentUser.cart.push(single);
       console.log(currentUser);
-      // const r = {
-      //   id: 2,
-      //   currentuser: currentUser,
-      // };
-      // console.log("here");
-      // const arg = {
-      //   method: "PUT",
-      //   body: JSON.stringify(r),
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //   },
-      // };
-      // const res = await fetch(url, arg);
-      // const re = await res.json();
-      // console.log(re);
+      const r = {
+        id: 2,
+        currentuser: currentUser,
+      };
+      console.log("here");
+      const arg = {
+        method: "PUT",
+        body: JSON.stringify(r),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      };
+      const res = await fetch(url, arg);
+      const re = await res.json();
+      console.log(re);
     } catch (error) {
       console.log(error);
     }
