@@ -52,6 +52,7 @@ body{
     .product_container img{
         width: 165px;
         height: 205px;
+        border: 1px solid rgb(168, 161, 161);
     }
     #cart_totals>div{
         display: flex;
