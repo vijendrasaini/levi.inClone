@@ -146,7 +146,7 @@ const navbar = ()=>{
         </div>
     </div>
     <div class="cart-icon-in-header">
-        <span><i class="fas fa-shopping-cart"></i></span>
+        <a href="./cart.html"><span><i class="fas fa-shopping-cart"></i></span></a>
     </div>
 </div>
     `
