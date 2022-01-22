@@ -1,16 +1,19 @@
+let data
 async function getProductData() {
     try {
         let res = await fetch(`http://127.0.0.1:7000/api/women`);
-        let data = await res.json();
-        appendMenData(data);
-        console.log(data);
+        let data1 = await res.json();
+        data = data1
+        appendMenData(data1);
     } catch (err) {
         console.log(err);
     }
 }
 getProductData();
-let appendMenData = (data) => {
-    data.map((elems,index) => {
+let appendMenData = (arr) => {
+    document.getElementById("menProductDiv").innerHTML = null
+    document.getElementById('totalProductsIn').textContent = arr.length
+    arr.map((elems,index) => {
         let menDiv = document.createElement("div");
         menDiv.setAttribute("class", "menDiv");
 
@@ -66,4 +69,49 @@ async function showfullDetails(dataArr,index){
     } catch (error) {
     console.log(error)
     }
+}
+
+const priceRadioInputClasses = document.getElementsByClassName('priceRadioInputClass')
+for(let i=0;i<priceRadioInputClasses.length;i++)
+{
+    priceRadioInputClasses[i].addEventListener('click',()=>{
+        sort1(i)
+    })
+}
+function sort1(i){
+    console.log((i+1)+" is checked.")
+    const arr = []
+        if(priceRadioInputClasses[0].checked){
+            for(let j=0;j<data.length;j++){
+                const el = data[j].price.price
+                if(el<=1000)
+                    arr.push(data[j])
+            }
+        }
+    
+        else if(priceRadioInputClasses[1].checked){
+            for(let j=0;j<data.length;j++){
+                const el = data[j].price.price
+                if(1001<= el && el<=3000)
+                    arr.push(data[j])
+            }
+        }
+    
+        else if(priceRadioInputClasses[2].checked){
+            for(let j=0;j<data.length;j++){
+                const el = data[j].price.price
+                if(3001<= el && el<=5000)
+                    arr.push(data[j])
+            }
+        }
+    
+        else if(priceRadioInputClasses[3].checked){
+            for(let j=0;j<data.length;j++){
+                const el = data[j].price.price
+                if(5001<= el)
+                    arr.push(data[j])
+            }
+        }
+    console.log(arr)
+    appendMenData(arr)
 }
