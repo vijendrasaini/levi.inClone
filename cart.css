@@ -8,7 +8,7 @@ body{
    }
 #cartHeader{
     display: grid;
-    grid-template-columns: 42% 25% 25% 25%;
+    grid-template-columns: 40% 20% 20% 20%;
 }
 span{
     font-weight: 400;
@@ -17,7 +17,8 @@ span{
 }
 #productDescription{
     display: grid;
-    grid-template-columns: 42% 25% 25% 25%;
+    grid-template-columns: 40% 20% 20% 20%;
+    grid-template-rows: auto;
     margin-top: 20px;
 }
 #quantity{
@@ -134,3 +135,28 @@ h3{
 #checkoutBtn:hover{
     background-color: grey;
 }
+
+/* MEDIA QUERIES *************************************/
+
+@media only screen and (min-width:375px) and (max-width:768px){
+    #cartDiv{
+        width: 90%;
+        grid-template-columns: 40% 20% 20% 20% ;
+        grid-template-rows: auto;
+    }
+     #productDescription{
+        grid-template-columns: 40% ;
+        grid-template-rows: auto;
+    }
+ }
+ @media only screen and (min-width:0px) and (max-width:375px){
+    #cartDiv{
+        width: 50%;
+        grid-template-columns:300px;
+        grid-template-rows: auto; 
+    }
+    h2{
+        text-align: center;
+    }
+   
+ }
