@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Levi's® for Men - Shop Clothing, Accessories & Footwear | Levi's® India</title>
+    <script src="https://kit.fontawesome.com/599713bf7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./STYLES/header.css">
+    <link rel="stylesheet" href="./STYLES/menProducts.css">
+    <link rel="stylesheet" href="./STYLES/footermain.css">
+
+</head>
+
+<body>
+    
+    <header class="complete-header"></header>
+    <div id="productPage">
+        <div id="leftDiv">
+            <span>REFINE</span>
+            <hr>
+            <div class="">
+                <div class="open-close">
+                    <span>GENDER</span>
+                    <span><i class="fas fa-plus-circle"></i></span> 
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Men</label> <br>
+                    <input type="checkbox">
+                    <label for="">Women</label>
+                </div>
+            </div>
+            <hr>
+            <div class="">
+                <div class="open-close">
+                    <span>ITEM TYPE</span>
+                    <span><i class="fas fa-plus-circle"></i></span> 
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">Cap</label> <br>
+                    <input type="checkbox">
+                    <label for="">Jackets</label> <br>
+                    <input type="checkbox">
+                    <label for="">Jeans</label> <br>
+                    <input type="checkbox">
+                    <label for="">Joggers</label> <br>
+                    <input type="checkbox">
+                    <label for="">Pants</label> <br>
+                    <input type="checkbox">
+                    <label for="">Shirts</label> <br>
+                    <input type="checkbox">
+                    <label for="">T.shirts</label>
+                </div>
+            </div>
+            <hr>
+            <div class="">
+                <div class="open-close">
+                    <span>PRICE</span>
+                    <span><i class="fas fa-plus-circle"></i></span> 
+                </div>
+                <div>
+                    <input type="radio" name="price" value="">
+                    <label for="">₹0 - ₹1000</label><br>
+                    <input type="radio" name="price" value="">
+                    <label for="">₹1001 - ₹3000</label><br>
+                    <input type="radio" name="price" value="">
+                    <label for="">₹3001 - ₹5000</label><br>
+                    <input type="radio" name="price" value="">
+                    <label for="">₹5001 - ₹10000</label>
+                </div>
+            </div>
+            <hr>
+            <div class="">
+                <div class="open-close">
+                    <span>SIZE</span>
+                    <span><i class="fas fa-plus-circle"></i></span> 
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="">XS</label> <br>
+                    <input type="checkbox">
+                    <label for="">S</label> <br>
+                    <input type="checkbox">
+                    <label for="">M</label> <br>
+                    <input type="checkbox">
+                    <label for="">L</label> <br>
+                    <input type="checkbox">
+                    <label for="">XL</label> <br>
+                    <input type="checkbox">
+                    <label for="">XXL</label>   
+                </div>
+            </div>
+            <hr>
+            <div class="">
+                <div class="open-close">
+                    <span>COLOUR</span>
+                    <span><i class="fas fa-plus-circle"></i></span> 
+                </div>
+                <div> 
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div id="rightDiv">
+            <span>984 Styles</span>
+            <div id="menProductDiv"></div>
+        </div>
+
+    </div>
+    <footer></footer>
+    <!-- <div>
+        <span><i class="fas fa-minus-circle"></i></span>
+    </div> -->
+</body>
+</html>
+<script src="./SCRIPTS/menProducts.js"></script>
+
+<script type="module">
+    import navbar from "./COMPONENTS/header.js"
+    import footermain from "./COMPONENTS/footermain.js"
+
+    document.getElementsByTagName("footer")[0].innerHTML=footermain()
+    document.getElementsByTagName('header')[0].innerHTML = navbar()
+</script>
