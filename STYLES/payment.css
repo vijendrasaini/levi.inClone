@@ -1,0 +1,86 @@
+#payment_gateway {
+    width: 50%;
+    margin: auto;
+    letter-spacing: 2px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    font-family: Interstate-Bold, sans-serif;
+}
+#payment_gateway .heading {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+}
+
+#payment_gateway .font {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+
+#payment_gateway .box {
+    padding: 16px 94px;
+}
+
+#payment_gateway .medias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+#payment_gateway #state1 {
+    padding: 16px 108px;
+}
+
+#payment_gateway #country {
+    padding: 16px 117px;
+}
+
+#payment_gateway .btn {
+    height: 55px;
+    width: 100%;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#payment_gateway .btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:376px) and (max-width:768px) {
+    #payment_gateway .medias {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+    #payment_gateway {
+        width: 90%;
+        margin: auto;
+        
+    }
+    #payment_gateway  .btn,#payment_gateway  #country,#payment_gateway #state1,#payment_gateway .box{
+        padding: 13px 0px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:375px) {
+    #payment_gateway .medias {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+        margin: auto;
+    }
+    #payment_gateway {
+        width: 90%;
+        margin: auto;
+        
+    }
+    #payment_gateway .btn,#payment_gateway #country,#payment_gateway #state1,#payment_gateway .box{
+        padding: 13px 0px;
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    font-family:calibre;
+    font-family: normal;
+    background-color: white;
+    color:black;
+    }
+
+    .basket_and_summary_wrapper{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 130px;
+        margin-bottom: 50px;
+    }
+    .order_summary{
+        width: 32%;
+        font-size: 17px;
+        letter-spacing: 0.6px;
+    }   
+    .order_summary>h1,.basket>h1{
+        border-bottom: .5px solid rgb(211, 198, 198);
+        padding-bottom: 35px;
+        font-weight: normal;
+        margin-top: 30px;
+    } 
+    .order_summary>h1{
+        padding-bottom: 43px;
+    }
+    .basket{
+        width: 65%;
+    }
+    /******************************************---------prouct-container-css--------*********************************************/
+    .product_container>div{
+        display: grid;
+        grid-template-rows: 210px;
+        grid-template-columns: 25% 28% 27% 15% 6%;
+        border-bottom: .5px solid rgb(211, 198, 198);
+    }
+    .product_container>div>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        letter-spacing: 1.4px;
+    }
+
+    .product_container p{
+        line-height: 20px;
+    }
+    .product_container img{
+        width: 165px;
+        height: 205px;
+    }
+    #cart_totals>div{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+    #cart_totals+p{
+        color: red;
+    }
+    #cart_totals+p:hover{
+        text-decoration: underline;
+    }
+    #cart_totals>div:last-child{
+        border-top: .5px solid rgb(211, 198, 198);
+    }
+    button.checkout_button{
+        padding: 15px 15px;
+        font-size: 10px;
+        width: 100%;
+        height: 48.5px;
+        letter-spacing: 2px;
+        background-color: white;
+        border:.5px solid rgb(122, 117, 117);
+    }
+    button.checkout_button:hover{
+        background-color: black;
+        border-color: white;
+        color: white;
+    }
+    .promo_code{
+        padding: 18px 0px;
+        text-align: center;
+        font-size: 10px;
+        width: 100%;
+        letter-spacing: 2px;
+        background-color: white;
+        border:.5px solid rgb(209, 207, 59);
+    }
+    /************************************************----increament-and-decrement-button-css-------**********************************************/
+    /*buttons those increase and decrease the number of a perticulat cart product i*/
+    .up_and_down{
+        border: .5px solid rgb(211, 198, 198);
+        height: 30px;
+    }
+    .up_and_down>button{
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: white;
+        /* border-bottom: .5px solid rgb(211, 198, 198); */
+    }
+    .up_and_down>button:hover{
+        cursor: pointer;
+        background-color: rgb(159, 170, 180);
+        
+    }
+    .up_and_down>span{
+        height: 15px;
+        width: 40px;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        border: none;
+    }
+    .remove_from_cart{
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+@media screen and (max-width:768px){
+    .basket_and_summary_wrapper{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "b"
+        "o";
+    }
+    .basket{
+        grid-area: b;
+        width: 100%;
+    }
+    .order_summary{
+        grid-area: o;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:375px){
+    .basket_and_summary_wrapper{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "b"
+        "o";
+    }
+    .basket{
+        grid-area: b;
+        width: 100%;
+    }
+    .order_summary{
+        grid-area: o;
+        width: 100%;
+    }
+    .product_container>div{
+        display: grid;
+        width: 100%;
+        height: 370px;
+        grid-template-rows: 200px 100px 20px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-areas: 
+        "img img img x"
+        "buttons buttons buttons price"
+        "prodname prodname prodname prodname";
+    }
+    .product_container img{
+        width: 150px;
+        height: 150px;
+    }
+    .product_container>div>div>:nth-child(1){
+        grid-area: img;
+    }
+    .product_container>div>div:nth-child(2){
+        grid-area: prodname;
+        width: 100%;
+        height: 40px;
+        letter-spacing: .5px;
+        margin: 0px;
+        padding: 0px;
+        line-height: 0px;
+    }
+    .product_container>div>div:nth-child(3){
+        grid-area: buttons;
+        margin-left: 0px;
+        height: 20px;
+    }
+    .product_container>div>div:nth-child(4){
+        grid-area: price;
+        height: 20px;
+    }
+    .product_container>div>div:nth-child(5){
+        grid-area: x;
+    }
+    #newsletter_image_container{
+        height: 450px;
+    }
+    #newslatter_text_container{
+        width: 100%;
+    }
+    #input_fleld_div input{
+        margin-bottom: 20px;
+    }
+    #service_charac{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+    }
+    #service_charac div{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+    #service_charac>div:last-child{
+        height: 100px;
+    }
+    #footer{
+        display: grid;
+        width: 90%;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4,400px);
+        grid-gap: 20px;
+    }
+    #footer div{
+        width: 374px;
+    }
+    #footer>div:last-child{
+        height: 100px;
+    }
+    #copy_right{
+        border: 1px solid transparent;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    #copy_right>div{
+        margin-top:20px ;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #copy_right span{
+        border: none;
+        margin: auto;
+    }
+    #copy_right img{
+        width: 350px;
+    }
+
+}

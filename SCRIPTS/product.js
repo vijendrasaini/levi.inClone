@@ -151,8 +151,15 @@ function singleProd(single) {
   let add_cart_btn = document.createElement("button");
   add_cart_btn.setAttribute("id", "add_cart_btn");
   add_cart_btn.innerText = "ADD TO CART";
-  // add_cart_btn.onclick = addCart;
-
+  add_cart_btn.onclick = addCart;
+  function addCart() {
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+  
+    cart.push(single);
+    console.log(cart);
+  
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }
   //<-----------ADD TO CART function-------->
 
   let buy_now = document.createElement("button");
@@ -202,3 +209,5 @@ function singleProd(single) {
     materials.append(mat1);
   }
 }
+
+
