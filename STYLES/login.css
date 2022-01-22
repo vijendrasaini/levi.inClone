@@ -1,0 +1,148 @@
+#login_content {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  font-size: 14px;
+  font-family: Interstate-Bold, sans-serif;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+#signin {
+  width: 50%;
+  margin-left: 10%;
+  padding-right: 15%;
+  border-right: rgb(235, 230, 230) solid 2px;
+}
+#signup {
+  width: 50%;
+  margin-left: 10%;
+  padding-right: 15%;
+}
+#login_content input {
+  border: 1px solid #ccc;
+  height: 40px;
+  width: 91%;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 15px 0 15px;
+  cursor: text;
+}
+#login_content button {
+  border: 1px solid #ccc;
+  height: 40px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 15px 0 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#login_heading {
+  font-weight: 700;
+  font-size: 24px;
+  color: #333;
+  padding-bottom: 5%;
+}
+
+#forgot {
+  text-align: right;
+  text-decoration: underline;
+  font-weight: 400;
+  color: #333;
+  cursor: pointer;
+}
+#forgot_popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#forgot_content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 33%;
+}
+#close_popup {
+  color: #333;
+  float: right;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#close_popup:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#reset_text {
+  margin-top: 0%;
+}
+#alert1 {
+  color: #c41230;
+  font-size: 14px;
+  font-weight: 400;
+}
+#send_otp {
+  width: 40%;
+  background-color: #c41230;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+#send_otp:hover {
+  background-color: black;
+  color: #ffffff;
+}
+#submit_otp {
+  width: 40%;
+  background-color: #c41230;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+#submit_otp:hover {
+  background-color: black;
+  color: #ffffff;
+}
+#si_btn {
+  background-color: #c41230;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+#si_btn:hover {
+  background-color: black;
+  color: #ffffff;
+}
+#or {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#google_sign_in {
+  background-color: #4285f4;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+#su_btn {
+  background-color: #c41230;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+#su_btn:hover {
+  background-color: black;
+  color: #ffffff;
+}
