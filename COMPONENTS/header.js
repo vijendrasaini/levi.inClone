@@ -24,41 +24,41 @@ const navbar = ()=>{
                 <div class="category-container">
                     <ul>
                         <h5>CLOTHING</h5>
-                        <li><a href=""> Jeans</a></li>
-                        <li><a href=""> Pants</a></li>
-                        <li><a href=""> Shorts</a></li>
-                        <li><a href=""> T-Shirts & Polos</a></li>
-                        <li><a href=""> Shirts</a></li>
+                        <li><a href="./menProducts.html"> Jeans</a></li>
+                        <li><a href="./menProducts.html"> Pants</a></li>
+                        <li><a href="./menProducts.html"> Shorts</a></li>
+                        <li><a href="./menProducts.html"> T-Shirts & Polos</a></li>
+                        <li><a href="./menProducts.html"> Shirts</a></li>
                         <li><a href="./menProducts.html"> Jackets</a></li>
-                        <li><a href=""> Sweaters & Sweatshirts</a></li>
+                        <li><a href="./menProducts.html"> Sweaters & Sweatshirts</a></li>
                     </ul>
 
                     <ul>
                         <h5>SHOP JEANS BY FIT</h5>
-                        <li><a href=""> Skinny</a></li>
-                        <li><a href=""> Slim</a></li>
-                        <li><a href=""> Tapered</a></li>
-                        <li><a href=""> Straight</a></li>
-                        <li><a href=""> Relaxed</a></li>
+                        <li><a href="./menProducts.html"> Skinny</a></li>
+                        <li><a href="./menProducts.html"> Slim</a></li>
+                        <li><a href="./menProducts.html"> Tapered</a></li>
+                        <li><a href="./menProducts.html"> Straight</a></li>
+                        <li><a href="./menProducts.html"> Relaxed</a></li>
                     </ul>
 
                     <ul>
                         <h5>ACCESSORIES</h5>
-                        <li><a href=""> Belts</a></li>
-                        <li><a href=""> Wallets</a></li>
-                        <li><a href=""> Bags & Backpacks</a></li>
-                        <li><a href=""> Caps</a></li>
-                        <li><a href=""> Footwear</a></li>
+                        <li><a href="#"> Belts</a></li>
+                        <li><a href="#"> Wallets</a></li>
+                        <li><a href="#"> Bags & Backpacks</a></li>
+                        <li><a href="#"> Caps</a></li>
+                        <li><a href="#"> Footwear</a></li>
                     </ul>
 
                     <ul>
                         <h5>COLLECTIONS</h5>
-                        <li><a href=""> Sustainability</a></li>
-                        <li><a href=""> Levi's® X Super Mario™</a></li>
-                        <li><a href=""> RedLoop™</a></li>
-                        <li><a href=""> White Tab</a></li>
-                        <li><a href=""> Winterwear</a></li>
-                        <li><a href=""> Levi's® Flex</a></li>
+                        <li><a href="#"> Sustainability</a></li>
+                        <li><a href="#"> Levi's® X Super Mario™</a></li>
+                        <li><a href="#"> RedLoop™</a></li>
+                        <li><a href="#"> White Tab</a></li>
+                        <li><a href="#"> Winterwear</a></li>
+                        <li><a href="#"> Levi's® Flex</a></li>
                     </ul>
 
                 </div>
@@ -67,50 +67,50 @@ const navbar = ()=>{
                 <div class="category-container">
                     <ul>
                         <h5>CLOTHING</h5>
-                        <li><a href="">Jeans</a></li>
-                        <li><a href="">T-Shirts & Tops</a></li>
-                        <li><a href="">Shirts</a></li>
-                        <li><a href="">Jackets</a></li>
-                        <li><a href="">Shirts</a></li>
-                        <li><a href="">Shorts & Skirts</a></li>
-                        <li><a href="">Pants</a></li>
-                        <li><a href="">Sweaters & Sweatshirts</a></li>
+                        <li><a href="./women.html">Jeans</a></li>
+                        <li><a href="./women.html">T-Shirts & Tops</a></li>
+                        <li><a href="./women.html">Shirts</a></li>
+                        <li><a href="./women.html">Jackets</a></li>
+                        <li><a href="./women.html">Shirts</a></li>
+                        <li><a href="./women.html">Shorts & Skirts</a></li>
+                        <li><a href="./women.html">Pants</a></li>
+                        <li><a href="./women.html">Sweaters & Sweatshirts</a></li>
                     </ul>
                     <ul>
                         <h5>SHOP JEANS BY FIT</h5>
-                        <li><a href="">Super Skinny</a></li>
-                        <li><a href="">Skinny</a></li>
-                        <li><a href="">Slim</a></li>
-                        <li><a href="">Balloon Leg</a></li>
-                        <li><a href="">High Rise</a></li>
+                        <li><a href="./women.html">Super Skinny</a></li>
+                        <li><a href="./women.html">Skinny</a></li>
+                        <li><a href="./women.html">Slim</a></li>
+                        <li><a href="./women.html">Balloon Leg</a></li>
+                        <li><a href="./women.html">High Rise</a></li>
 
                     </ul>
                     <ul>
                         <h5>ACCESSORIES</h5>
-                        <li><a href="">Bags & Backpacks</a></li>
-                        <li><a href="">Belts</a></li>
-                        <li><a href="">Sneakers</a></li>
-                        <li><a href="">Footwear</a></li>
+                        <li><a href="#">Bags & Backpacks</a></li>
+                        <li><a href="#">Belts</a></li>
+                        <li><a href="#">Sneakers</a></li>
+                        <li><a href="#">Footwear</a></li>
                     </ul>
                     <ul>
                         <h5>COLLECTIONS</h5>
-                        <li><a href="">Sustainability</a></li>
-                        <li><a href="">Levi's® X Super Mario™</a></li>
-                        <li><a href="">Balloon Jeans</a></li>
-                        <li><a href="">Sculpt Jeans</a></li>
-                        <li><a href="">Levi's® Made & Crafted®</a></li>
-                        <li><a href=""></a>Winterwear</li>
-                        <li><a href="">RedLoop™</a></li>
-                        <li><a href="">White Tab</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Levi's® X Super Mario™</a></li>
+                        <li><a href="#">Balloon Jeans</a></li>
+                        <li><a href="#">Sculpt Jeans</a></li>
+                        <li><a href="#">Levi's® Made & Crafted®</a></li>
+                        <li><a href="#"></a>Winterwear</li>
+                        <li><a href="#">RedLoop™</a></li>
+                        <li><a href="#">White Tab</a></li>
                     </ul>
                 </div>
             </li>
             <li><span>NEW ARRIVALS</span>
                 <div class="category-container">
                     <ul>
-                        <li><a href="">Men</a></li>
-                        <li><a href="">Women</a></li>
-                        <li><a href="">Online Exclusive</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Online Exclusive</a></li>
                     </ul>
                 </div>
             </li>
