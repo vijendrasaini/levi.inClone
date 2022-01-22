@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./STYLES/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+    <script src="https://kit.fontawesome.com/599713bf7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./STYLES/header.css">
+    <link rel="stylesheet" href="./STYLES/footermain.css">
+    <title>Cart</title>
+</head>
+<body>
+    <header class="complete-header"></header>
+    <div class="basket_and_summary_wrapper">
+        <div class="basket">
+            <h1>LEVI's CART</h1>
+            <div class="product_container">
+               
+            </div>    
+        </div>
+        <div class="order_summary">
+            <h1>Order Summary</h1>
+            <div>
+                <label for="">Promo Code</label><br><br>
+                <input class="promo_code" type="text" placeholder="PROMO CODE">
+                <div id="cart_totals">
+                    <div>
+                        <span id="total_number_of_cart_items">3 x items</span>
+                        <span id="total_price_of_cart_items_without_delivery_charges">₹3,285.00</span>
+                    </div>
+                    <div>
+                        <span>Delivery</span>
+                        <span id="delivery_charges">₹0.00</span>
+                    </div>
+                    <div>
+                        <span>TOTAL	</span>
+                        <span id="total_price_of_cart_items_with_delivery_charges">₹3,285.00</span>
+                    </div>
+                </div>
+                <p>Levi's is a Cloth company providing services from 1890's.(click to see details)</p>
+                <a href="payment.html"><button class="checkout_button">PROCEED TO CHECKOUT</button></a>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>
+<script src="./SCRIPTS/cart.js"></script>
+<script type="module">
+    import navbar from "./COMPONENTS/header.js"
+    import footermain from "./COMPONENTS/footermain.js"
+
+    document.getElementsByTagName("footer")[0].innerHTML=footermain()
+    document.getElementsByTagName('header')[0].innerHTML = navbar()
+
+</script>
+ 
