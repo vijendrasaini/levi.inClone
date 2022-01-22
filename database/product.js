@@ -155,7 +155,36 @@ function singleProd(single) {
   let add_cart_btn = document.createElement("button");
   add_cart_btn.setAttribute("id", "add_cart_btn");
   add_cart_btn.innerText = "ADD TO CART";
-  // add_cart_btn.onclick = addCart;
+  add_cart_btn.onclick = addCart;
+
+  async function addCart() {
+    try {
+      const url = "http://127.0.0.1:7000/api/allusers/2";
+      const response = await fetch(url);
+      const result = await response.json();
+
+      let currentUser = result.currentuser;
+      currentUser.cart.push(single);
+      console.log(currentUser);
+      // const r = {
+      //   id: 2,
+      //   currentuser: currentUser,
+      // };
+      // console.log("here");
+      // const arg = {
+      //   method: "PUT",
+      //   body: JSON.stringify(r),
+      //   headers: {
+      //     "Content-Type": "application/json",
+      //   },
+      // };
+      // const res = await fetch(url, arg);
+      // const re = await res.json();
+      // console.log(re);
+    } catch (error) {
+      console.log(error);
+    }
+  }
 
   //<-----------ADD TO CART function-------->
 
