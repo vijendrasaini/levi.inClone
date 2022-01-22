@@ -138,7 +138,11 @@
       "gender": "men",
       "category": "clothing",
       "type": "jackets",
-      "color": ["black", "green", "grey"],
+      "color": [
+        "black",
+        "green",
+        "grey"
+      ],
       "price": {
         "mrp": 3999,
         "disc": 49,
@@ -168,7 +172,9 @@
         "Sleeveless",
         "Button Fly and Closure"
       ],
-      "material": ["60% Polyurethane, 40% Other Fibers"]
+      "material": [
+        "60% Polyurethane, 40% Other Fibers"
+      ]
     },
     {
       "title": "LEVI'S® OUILTED JACKET",
@@ -176,7 +182,11 @@
       "gender": "men",
       "category": "clothing",
       "type": "jackets",
-      "color": ["green", "grey", "white"],
+      "color": [
+        "green",
+        "grey",
+        "white"
+      ],
       "price": {
         "mrp": 4099,
         "disc": 40,
@@ -200,7 +210,11 @@
         "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw2a1b4898/images/hi-res/818800013/818800013_03_Side.jpg?sw=75&sh=100"
       ],
       "description": "Refine your casual avatar by slipping on the smart Levi's yellow jacket. Complement this jacket with a simple black V-neck tee to complete your look.",
-      "fit": ["Regular Fit", "Mock Neck", "Sleeveless"],
+      "fit": [
+        "Regular Fit",
+        "Mock Neck",
+        "Sleeveless"
+      ],
       "material": []
     },
     {
@@ -209,7 +223,11 @@
       "gender": "men",
       "category": "clothing",
       "type": "jackets",
-      "color": ["red", "yellow", "grey"],
+      "color": [
+        "red",
+        "yellow",
+        "grey"
+      ],
       "price": {
         "mrp": 3999,
         "disc": 2459.4,
@@ -239,7 +257,9 @@
         "Sleeveless",
         "Button Fly and Closure"
       ],
-      "material": ["60% Polyurethane, 40% Other Fibers"]
+      "material": [
+        "60% Polyurethane, 40% Other Fibers"
+      ]
     },
     {
       "title": "LEVI'S® OUILTED JACKET",
@@ -247,7 +267,11 @@
       "gender": "men",
       "category": "clothing",
       "type": "jackets",
-      "color": ["green", "white", "black"],
+      "color": [
+        "green",
+        "white",
+        "black"
+      ],
       "price": {
         "mrp": 4099,
         "disc": 40,
@@ -271,8 +295,14 @@
         "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwad52467a/images/hi-res/818800014/818800014_03_Side.jpg?sw=75&sh=100"
       ],
       "description": "Layer up in style this winter wearing the trendy Levi's yellow jacket. Pair this jacket with a simple V-neck tee to complete your look.",
-      "fit": ["Regular Fit", "Mock Neck", "Sleeveless"],
-      "material": ["100% Nylon"]
+      "fit": [
+        "Regular Fit",
+        "Mock Neck",
+        "Sleeveless"
+      ],
+      "material": [
+        "100% Nylon"
+      ]
     },
     {
       "title": "LEVI'S® TRUCKER JACKET",
@@ -308,8 +338,14 @@
         "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw16100ee7/images/hi-res/A06040000/A06040000_03_Side.jpg?sw=75&sh=100"
       ],
       "description": "Made to go the distance. For decades, our Truckers have been worn and loved by just about everybody. With a versatile silhouette and perfect length, the Original Trucker is your new go-to denim jacket. Layer it over any outfit for a timeless look",
-      "fit": ["Regular Fit", "Shirt Collar", "Long Sleeve"],
-      "material": ["100% Cotton"]
+      "fit": [
+        "Regular Fit",
+        "Shirt Collar",
+        "Long Sleeve"
+      ],
+      "material": [
+        "100% Cotton"
+      ]
     },
     {
       "title": "LEVI'S® TRUCKER JACKET",
@@ -345,8 +381,15 @@
         "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw6dfdc5b4/images/hi-res/A06350000/A06350000_10_Moodel%20Front.jpg?sw=75&sh=100"
       ],
       "description": "Made to go the distance. For decades, our Truckers have been worn and loved by just about everybody. With a versatile silhouette and perfect length, the Original Trucker is your new go-to denim jacket. Layer it over any outfit for a timeless look.",
-      "fit": ["FIT AND SIZING", "Relaxed Fit", "Shirt Collar", "Long Sleeve"],
-      "material": ["88% Cotton, 12% Hemp"]
+      "fit": [
+        "FIT AND SIZING",
+        "Relaxed Fit",
+        "Shirt Collar",
+        "Long Sleeve"
+      ],
+      "material": [
+        "88% Cotton, 12% Hemp"
+      ]
     },
     {
       "title": "LEVI'S® QUILTED JACKET",
@@ -384,8 +427,14 @@
         "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw5f76e11c/images/hi-res/866070014/866070014_05_Model%20Front.jpg?sw=75&sh=100"
       ],
       "description": "Perfect for all occasions, the versatile Levi's yellow jacket is a wardrobe essential. Pair this jacket with a simple V-neck tee to complete your look.",
-      "fit": ["Regular Fit", "Mock Neck", "Long Sleeve"],
-      "material": ["100% Nylon"]
+      "fit": [
+        "Regular Fit",
+        "Mock Neck",
+        "Long Sleeve"
+      ],
+      "material": [
+        "100% Nylon"
+      ]
     },
     {
       "title": "LEVI'S® OUILTED JACKET",
@@ -421,8 +470,14 @@
         "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwf856c3a4/images/hi-res/866070010/866070010_03_Side.jpg?sw=75&sh=100"
       ],
       "description": "Set the fashion trend this season with the smart and stylish Levi's black jacket. Complement this jacket with a simple blue V-neck tee to complete your look.",
-      "fit": ["Regular Fit", "Mock Neck", "Long Sleeve"],
-      "material": ["100% Cotton"]
+      "fit": [
+        "Regular Fit",
+        "Mock Neck",
+        "Long Sleeve"
+      ],
+      "material": [
+        "100% Cotton"
+      ]
     },
     {
       "title": "LEVI'S® HOODED RAIN JACKET",
@@ -452,7 +507,13 @@
         "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwade87477/images/hi-res/873360000/873360000_02_Back.jpg?sw=451&sh=600",
         "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwe2b47e16/images/hi-res/873360000/873360000_03_Side.jpg?sw=451&sh=600"
       ],
-      "image": ["", "", "", "", ""],
+      "image": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
       "description": "Trucker Jacket . Made to go the distance. For decades, our Truckers have been worn and loved by just about everybody. With a versatile silhouette and perfect length, the Original Trucker is your new go-to denim jacket. Layer it over any outfit for a timeless look.",
       "fit": [
         "Regular Fit",
@@ -460,7 +521,9 @@
         "Long Sleeve",
         "Zip Fly with Button Closure"
       ],
-      "material": ["94% Polyester, 6% Elastane"]
+      "material": [
+        "94% Polyester, 6% Elastane"
+      ]
     },
     {
       "title": "710 INNOVATION SUPER SKINNY JEANS",
@@ -501,7 +564,9 @@
         "Sits At Waist",
         "Zip Fly with Button Closure"
       ],
-      "material": ["85% Cotton, 9% Polyester, 6% Elastane"]
+      "material": [
+        "85% Cotton, 9% Polyester, 6% Elastane"
+      ]
     },
     {
       "title": "710 Super Skinny Jeans",
@@ -540,7 +605,9 @@
         "Sits At Waist",
         "Zip Fly with Button Closure"
       ],
-      "material": ["79% Cotton Denim, 19% Polyester, 2% Elastane"]
+      "material": [
+        "79% Cotton Denim, 19% Polyester, 2% Elastane"
+      ]
     },
     {
       "title": "710 Innovation Super Skinny Jeans",
@@ -579,7 +646,9 @@
         "Sits at waist",
         "Zip Fly with Button Closure"
       ],
-      "material": ["76% Cotton, 13% Lyocell, 6% Polyester, 5% Elastane"]
+      "material": [
+        "76% Cotton, 13% Lyocell, 6% Polyester, 5% Elastane"
+      ]
     },
     {
       "title": "710 Innovation Super Skinny Jeans",
@@ -620,7 +689,9 @@
         "Sits at waist",
         "Zip Fly with Button Closure"
       ],
-      "material": ["76% Cotton, 13% Lyocell, 6% Polyester, 5% Elastane"]
+      "material": [
+        "76% Cotton, 13% Lyocell, 6% Polyester, 5% Elastane"
+      ]
     },
     {
       "title": "710 SUPER SKINNY JEANS",
@@ -661,7 +732,9 @@
         "Sits At Waist",
         "Zip Fly"
       ],
-      "material": ["64% Cotton, 20% Polyester, 13% Viscose, 3% Elastane"]
+      "material": [
+        "64% Cotton, 20% Polyester, 13% Viscose, 3% Elastane"
+      ]
     },
     {
       "title": "Innovation Super Skinny Jeans",
@@ -686,7 +759,13 @@
         "XL": 0,
         "XXL": 1
       },
-      "image": ["", "", "", "", ""],
+      "image": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
       "description": "",
       "fit": [],
       "material": []
@@ -729,7 +808,9 @@
         "Sits at waist",
         "Zip Fly with Button Closure"
       ],
-      "material": ["76% Cotton, 21% Polyester, 3% Elastane"]
+      "material": [
+        "76% Cotton, 21% Polyester, 3% Elastane"
+      ]
     },
     {
       "title": "710 SUPER SKINNY JEANS",
@@ -770,7 +851,9 @@
         "Sits At Waist",
         "Zip Fly"
       ],
-      "material": ["98% Cotton, 2% Elastane"]
+      "material": [
+        "98% Cotton, 2% Elastane"
+      ]
     },
     {
       "title": "710 SUPER SKINNY JEANS",
@@ -811,7 +894,9 @@
         "Sits at waist",
         "Zip Fly with Button Closure"
       ],
-      "material": ["76% Cotton, 21% Polyester, 3% Elastane"]
+      "material": [
+        "76% Cotton, 21% Polyester, 3% Elastane"
+      ]
     }
   ],
   "allusers": [
@@ -874,7 +959,52 @@
         "email": "demo1@levi.com",
         "password": "11445522",
         "phone": "9876543211",
-        "cart": [],
+        "cart": [
+          {
+            "title": "LIGHTWEIGHT QUILTED PACKABLE VEST",
+            "item_no": 818800009,
+            "gender": "men",
+            "category": "clothing",
+            "type": "jackets",
+            "color": [
+              "red",
+              "yellow",
+              "grey"
+            ],
+            "price": {
+              "mrp": 3999,
+              "disc": 2459.4,
+              "price": 38
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 1
+            },
+            "highresImage": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw82d6e607/images/hi-res/818800009/818800009_01_Front.jpg?sw=451&sh=600",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb896b527/images/hi-res/818800009/818800009_02_Back.jpg?sw=451&sh=600",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw4320f53b/images/hi-res/818800009/818800009_03_Side.jpg?sw=451&sh=600"
+            ],
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw82d6e607/images/hi-res/818800009/818800009_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb896b527/images/hi-res/818800009/818800009_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw4320f53b/images/hi-res/818800009/818800009_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description": "Trucker Jacket . Made to go the distance. For decades, our Truckers have been worn and loved by just about everybody. With a versatile silhouette and perfect length, the Original Trucker is your new go-to denim jacket. Layer it over any outfit for a timeless look.",
+            "fit": [
+              "Regular Fit",
+              "High Neck",
+              "Sleeveless",
+              "Button Fly and Closure"
+            ],
+            "material": [
+              "60% Polyurethane, 40% Other Fibers"
+            ]
+          }
+        ],
         "orders": [],
         "status": true
       }

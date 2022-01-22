@@ -10,7 +10,7 @@ async function fetchData() {
     obj = response;
     console.log(obj);
     let single = [];
-    single = obj[1];
+    single = obj[0];
     console.log(single);
     singleProd(single);
   } catch (error) {
@@ -103,13 +103,17 @@ function singleProd(single) {
   for (var x in sizes) {
     let size_box = document.createElement("div");
     size_box.setAttribute("id", "size_box");
-    // size_box.onclick = selectSize(size_box);
+    size_box.onclick = () => {
+      selectSize(x, size_box);
+    };
     size_box.textContent = x;
     size_row.append(size_box);
   }
   //<------------SIZE SELECT function----------->
 
-  function selectSize(size_box) {
+  function selectSize(x, size_box) {
+    console.log(x);
+    single.selSize = x;
     size_box.style.backgroundColor = "#333333";
     size_box.style.color = "#ffffff";
   }
@@ -157,7 +161,23 @@ function singleProd(single) {
   add_cart_btn.innerText = "ADD TO CART";
   add_cart_btn.onclick = addCart;
 
-  async function addCart() {
+  function addCart() {
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    cart.push(single);
+    console.log(cart);
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }
+
+  //<-----------ADD TO CART function-------->
+
+  let buy_now = document.createElement("button");
+  buy_now.setAttribute("id", "buy_now");
+  buy_now.innerText = "BUY NOW";
+  buy_now.onclick = buyNow;
+
+  async function buyNow() {
     try {
       const url = "http://127.0.0.1:7000/api/allusers/2";
       const response = await fetch(url);
@@ -185,13 +205,6 @@ function singleProd(single) {
       console.log(error);
     }
   }
-
-  //<-----------ADD TO CART function-------->
-
-  let buy_now = document.createElement("button");
-  buy_now.setAttribute("id", "buy_now");
-  buy_now.innerText = "BUY NOW";
-  // buy_now.onclick = buyNow;
 
   //<-----------BUY NOW function------------>
 
