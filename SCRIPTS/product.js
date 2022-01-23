@@ -152,14 +152,6 @@ function singleProd(single) {
   add_cart_btn.setAttribute("id", "add_cart_btn");
   add_cart_btn.innerText = "ADD TO CART";
   add_cart_btn.onclick = addCart;
-  // function addCart() {
-  //   const cart = JSON.parse(localStorage.getItem("cart")) || [];
-  
-  //   cart.push(single);
-  //   console.log(cart);
-  
-  //   localStorage.setItem("cart", JSON.stringify(cart));
-  // }
   function addCart() {
     
     var cart = JSON.parse(localStorage.getItem("cart")) || [];
