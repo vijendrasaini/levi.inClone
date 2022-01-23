@@ -13,22 +13,22 @@ async function fetchDataFromServer() {
   cart1.map((el) => {
     cartContent.push(el);
   });
-  const r = {
-    id: 2,
-    currentuser: currentUser,
-  };
-  console.log("here");
-  const arg = {
-    method: "PUT",
-    body: JSON.stringify(r),
-    headers: {
-      "Content-Type": "application/json",
-    },
-  };
-  const res = await fetch(url, arg);
-  const re = await res.json();
-  cart1 = [];
-  localStorage.setItem("cart", JSON.stringify(cart1));
+  // const r = {
+  //   id: 2,
+  //   currentuser: currentUser,
+  // };
+  // console.log("here");
+  // const arg = {
+  //   method: "PUT",
+  //   body: JSON.stringify(r),
+  //   headers: {
+  //     "Content-Type": "application/json",
+  //   },
+  // };
+  // const res = await fetch(url, arg);
+  // const re = await res.json();
+  // cart1 = [];
+  // localStorage.setItem("cart", JSON.stringify(cart1));
 
   //   console.log(cartContent);
 
@@ -42,15 +42,13 @@ async function fetchDataFromServer() {
     };
     arr.push(obj);
   });
-  //   display(arr);
-  
-
+    display(arr);
   updateCheckoutSection(arr);
 }
-async function updataData(){
+// async function updataData(){
     
-  const url = "http://127.0.0.1:7000/api/allusers/2";
-}
+//   const url = "http://127.0.0.1:7000/api/allusers/2";
+// }
 // var cart =JSON.parse(localStorage.getItem('cart'))||[]
 // console.log(cart)
 

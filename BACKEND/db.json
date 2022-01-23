@@ -1046,50 +1046,6 @@
         "password": "11445522",
         "phone": "9876543211",
         "cart": [
-          {
-            "title": "LIGHTWEIGHT QUILTED PACKABLE VEST",
-            "item_no": 818800009,
-            "gender": "men",
-            "category": "clothing",
-            "type": "jackets",
-            "color": [
-              "red",
-              "yellow",
-              "grey"
-            ],
-            "price": {
-              "mrp": 3999,
-              "disc": 2459.4,
-              "price": 38
-            },
-            "size": {
-              "S": 1,
-              "M": 1,
-              "L": 1,
-              "XL": 1,
-              "XXL": 1
-            },
-            "highresImage": [
-              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw82d6e607/images/hi-res/818800009/818800009_01_Front.jpg?sw=451&sh=600",
-              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb896b527/images/hi-res/818800009/818800009_02_Back.jpg?sw=451&sh=600",
-              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw4320f53b/images/hi-res/818800009/818800009_03_Side.jpg?sw=451&sh=600"
-            ],
-            "image": [
-              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw82d6e607/images/hi-res/818800009/818800009_01_Front.jpg?sw=75&sh=100",
-              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb896b527/images/hi-res/818800009/818800009_02_Back.jpg?sw=75&sh=100",
-              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw4320f53b/images/hi-res/818800009/818800009_03_Side.jpg?sw=75&sh=100"
-            ],
-            "description": "Trucker Jacket . Made to go the distance. For decades, our Truckers have been worn and loved by just about everybody. With a versatile silhouette and perfect length, the Original Trucker is your new go-to denim jacket. Layer it over any outfit for a timeless look.",
-            "fit": [
-              "Regular Fit",
-              "High Neck",
-              "Sleeveless",
-              "Button Fly and Closure"
-            ],
-            "material": [
-              "60% Polyurethane, 40% Other Fibers"
-            ]
-          }
         ],
         "orders": [],
         "status": true
