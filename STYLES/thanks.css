@@ -12,7 +12,7 @@ body{
 }
 img{
     padding-left: 43%;
-    padding-top: 12%;
+    padding-top: 9%;
 }
 h2{
     color: firebrick;
@@ -27,4 +27,12 @@ h2, h4{
     font-size: small;
     font-weight: 500;
     color: rgb(70, 68, 68);
+}
+#order button{
+    border: 1px solid;
+    background-color: firebrick;
+    border-radius: 3px;
+    padding: 1%;
+    font-weight: 600;
+    color: white;
 }
