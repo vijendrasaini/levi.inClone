@@ -146,9 +146,12 @@ const navbar = ()=>{
         </div>
     </div>
     <div class="cart-icon-in-header">
-        <a href="./cart.html"><span><i class="fas fa-shopping-cart"></i></span></a>
     </div>
-</div>
+         <a href="./cart.html"><span><i class="fas fa-shopping-cart"></i></span></a> 
+    </div>
     `
 }
+
+// }
+/* <span id='cartIcon'><i class="fas fa-shopping-cart"></i></span> */
     export default navbar

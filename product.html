@@ -62,4 +62,42 @@
   document.getElementsByTagName("footer")[0].innerHTML = footermain()
   document.getElementsByTagName('header')[0].innerHTML = navbar()
 
+  // const cartIcon = document.getElementById('cartIcon')
+  // console.log(cartIcon)
+  // cartIcon.style.cursor = "pointer"
+  // cartIcon.onclick = goToCart
+  g
+
+
+// async function goToCart(){
+//       try {
+//           const url = "http://127.0.0.1:7000/api/allusers/2";
+//           const response = await fetch(url);
+//           const result = await response.json();
+          
+//           const cart = JSON.parse(localStorage.getItem('cart'))
+//           let currentUser = result.currentuser;
+//         currentUser.cart.push(cart);
+//         console.log(currentUser);
+//         const r = {
+//           id: 2,
+//           currentuser: currentUser,
+//         };
+//         console.log("here");
+//         const arg = {
+//           method: "PUT",
+//           body: JSON.stringify(r),
+//           headers: {
+//             "Content-Type": "application/json",
+//           },
+//         };
+//         const res = await fetch(url, arg);
+//         const re = await res.json();
+//         console.log(re);
+//         window.location.href = "./cart.html"
+//       } catch (error) {
+//         console.log(error);
+//       }
+//     }
+
 </script>

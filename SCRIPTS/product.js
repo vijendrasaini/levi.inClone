@@ -176,6 +176,41 @@ function singleProd(single) {
   let buy_now = document.createElement("button");
   buy_now.setAttribute("id", "buy_now");
   buy_now.innerText = "BUY NOW";
+  buy_now.onclick = buyNow;
+
+  const cartIcon = document.getElementById('cartIcon')
+  console.log(cartIcon)
+
+  async function buyNow() {
+    try {
+      const url = "http://127.0.0.1:7000/api/allusers/2";
+      const response = await fetch(url);
+      const result = await response.json();
+
+      // const cart = JSON.parse(localStorage.getItem('cart'))
+      let currentUser = result.currentuser;
+      currentUser.cart.push(single);
+      console.log(currentUser);
+      const r = {
+        id: 2,
+        currentuser: currentUser,
+      };
+      console.log("here");
+      const arg = {
+        method: "PUT",
+        body: JSON.stringify(r),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      };
+      const res = await fetch(url, arg);
+      const re = await res.json();
+      console.log(re);
+      window.location.href = "./cart.html"
+    } catch (error) {
+      console.log(error);
+    }
+  }
   // buy_now.onclick = buyNow;
 
   //<-----------BUY NOW function------------>
@@ -220,5 +255,4 @@ function singleProd(single) {
     materials.append(mat1);
   }
 }
-
 
